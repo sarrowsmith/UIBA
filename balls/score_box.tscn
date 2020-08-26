@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/ballBlue_10.png" type="Texture" id=1]
+[ext_resource path="res://assets/default_font.tres" type="DynamicFont" id=2]
+
+[node name="ScoreBox" type="Control"]
+margin_right = 80.0
+margin_bottom = 72.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Score" type="Label" parent="."]
+margin_right = 82.0
+margin_bottom = 32.0
+custom_fonts/font = ExtResource( 2 )
+text = "0000"
+align = 2
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Balls" type="Label" parent="."]
+margin_left = 48.0
+margin_top = 32.0
+margin_right = 80.0
+margin_bottom = 64.0
+custom_fonts/font = ExtResource( 2 )
+text = "9"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 32, 48 )
+scale = Vector2( 0.15, 0.15 )
+texture = ExtResource( 1 )

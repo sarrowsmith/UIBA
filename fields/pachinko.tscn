@@ -1,0 +1,57 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://fields/component.gd" type="Script" id=1]
+[ext_resource path="res://components/pin.tscn" type="PackedScene" id=2]
+
+[node name="Pachinko" type="Node2D"]
+rotation = 0.785398
+script = ExtResource( 1 )
+animationType = 2
+
+[node name="Pin4" parent="." instance=ExtResource( 2 )]
+position = Vector2( -48, -48 )
+
+[node name="Pin5" parent="." instance=ExtResource( 2 )]
+position = Vector2( -16, -48 )
+
+[node name="Pin6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 16, -48 )
+
+[node name="Pin7" parent="." instance=ExtResource( 2 )]
+position = Vector2( -48, -16 )
+
+[node name="Pin8" parent="." instance=ExtResource( 2 )]
+position = Vector2( -16, -16 )
+
+[node name="Pin9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 16, -16 )
+
+[node name="Pin10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 48, -16 )
+
+[node name="Pin22" parent="." instance=ExtResource( 2 )]
+position = Vector2( -48, 48 )
+
+[node name="Pin23" parent="." instance=ExtResource( 2 )]
+position = Vector2( -16, 48 )
+
+[node name="Pin24" parent="." instance=ExtResource( 2 )]
+position = Vector2( 16, 48 )
+
+[node name="Pin25" parent="." instance=ExtResource( 2 )]
+position = Vector2( 48, 48 )
+
+[node name="Pin11" parent="." instance=ExtResource( 2 )]
+position = Vector2( -48, 16 )
+
+[node name="Pin12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 16, 16 )
+
+[node name="Pin13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 48, 16 )
+
+[node name="Pin14" parent="." instance=ExtResource( 2 )]
+position = Vector2( 48, -48 )
+
+[node name="Pin15" parent="." instance=ExtResource( 2 )]
+position = Vector2( -16, 16 )

@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://fields/component.gd" type="Script" id=1]
+[ext_resource path="res://components/pin.tscn" type="PackedScene" id=2]
+[ext_resource path="res://components/barrier.tscn" type="PackedScene" id=3]
+
+[node name="Slash" type="Node2D"]
+rotation = 1.5708
+script = ExtResource( 1 )
+animationType = 2
+
+[node name="Barrier" parent="." instance=ExtResource( 3 )]
+position = Vector2( -32, -32 )
+rotation = 0.785398
+
+[node name="Barrier2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 32 )
+rotation = 0.785398
+
+[node name="Pin" parent="." instance=ExtResource( 2 )]
+position = Vector2( 48, -48 )
+
+[node name="Pin2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 48, -48 )
+
+[node name="Pin3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 16, -16 )
+
+[node name="Pin5" parent="." instance=ExtResource( 2 )]
+position = Vector2( -16, 16 )
+
+[node name="Pin4" parent="." instance=ExtResource( 2 )]
+position = Vector2( -48, 48 )

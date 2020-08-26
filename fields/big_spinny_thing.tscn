@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://fields/component.gd" type="Script" id=1]
+[ext_resource path="res://assets/ballBlue_10.png" type="Texture" id=2]
+[ext_resource path="res://components/sunwise.tres" type="Animation" id=3]
+
+[sub_resource type="PhysicsMaterial" id=1]
+rough = true
+bounce = 0.25
+absorbent = true
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 56.0
+
+[node name="BigSpinnyThing" type="Node2D"]
+script = ExtResource( 1 )
+animationType = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+constant_angular_velocity = 2000.0
+physics_material_override = SubResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+modulate = Color( 0.533333, 0.152941, 0.494118, 1 )
+position = Vector2( -1.90735e-06, 0 )
+scale = Vector2( 0.75, 0.75 )
+texture = ExtResource( 2 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/Sunwise = ExtResource( 3 )

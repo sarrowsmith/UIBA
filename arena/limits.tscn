@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="PhysicsMaterial" id=1]
+friction = 0.25
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 152, 8 )
+
+[node name="LongBarrier" type="StaticBody2D"]
+physics_material_override = SubResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color( 0.352941, 0.235294, 0.235294, 1 )
+polygon = PoolVector2Array( -152, -8, 152, -8, 152, 8, -152, 8 )

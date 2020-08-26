@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://components/super_pin.tscn" type="PackedScene" id=1]
+
+[node name="SuperPins" type="Node2D"]
+
+[node name="SuperPin" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, -32 )
+
+[node name="SuperPin2" parent="." instance=ExtResource( 1 )]
+position = Vector2( -24, 16 )
+
+[node name="SuperPin3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 24, 16 )

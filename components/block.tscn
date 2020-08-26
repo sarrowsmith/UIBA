@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="PhysicsMaterial" id=1]
+friction = 0.25
+bounce = 0.25
+absorbent = true
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 8.0
+height = 16.0
+
+[node name="Block" type="StaticBody2D"]
+physics_material_override = SubResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2( 3.8147e-06, 0 )
+color = Color( 0.352941, 0.235294, 0.235294, 1 )
+polygon = PoolVector2Array( -3.8147e-06, -16, 8, -8, 8, 8, -3.8147e-06, 16, -8, 8, -8, -8 )
