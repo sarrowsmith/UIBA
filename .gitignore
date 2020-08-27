@@ -5,3 +5,8 @@
 bin/
 build/
 lib/
+
+# Binary imported translations generated from CSV files.
+*.translation
+# Export presets for the project, including sensitive information such as Android keystore credentials.
+export_presets.cfg

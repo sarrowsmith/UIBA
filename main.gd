@@ -9,21 +9,22 @@ onready var arena = $Arena
 onready var timeout = $Timer
 onready var scoreBox = $"ScoreBox/Score"
 onready var ballsLeft = $"ScoreBox/Balls"
+onready var UI = $Screen
 
 
 func _init():
 	randomize()
 
 
-func _ready():
+func new_game():
 	scored(0)
-	new_ball()
+	arena.new_game()
 
 
 func new_ball():
 	if arena.new_ball():
 		left -= 1
-		ballsLeft.text = "%d" % left
+		ballsLeft.text = str(left)
 
 
 func scored(value):
@@ -38,6 +39,10 @@ func _on_Arena_score(score):
 
 func _on_Timer_timeout():
 	if left == 0:
-		print("GameOver")
+		UI.show_game_over()
 	else:
 		new_ball()
+
+
+func _on_HUD_start_game():
+	new_game()

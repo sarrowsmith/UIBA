@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://arena/arena.gd" type="Script" id=1]
 [ext_resource path="res://arena/bottom_box.tscn" type="PackedScene" id=2]
@@ -10,26 +10,22 @@
 [ext_resource path="res://components/super_pin.tscn" type="PackedScene" id=8]
 [ext_resource path="res://fields/small_field.tscn" type="PackedScene" id=9]
 [ext_resource path="res://fields/big_field.tscn" type="PackedScene" id=10]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[ext_resource path="res://assets/ballBlue_10.png" type="Texture" id=11]
+[ext_resource path="res://assets/default_font.tres" type="DynamicFont" id=12]
 
 [sub_resource type="SegmentShape2D" id=1]
 a = Vector2( 472, 120 )
 b = Vector2( 0, 120 )
+
+[sub_resource type="PhysicsMaterial" id=4]
+friction = 0.0
+bounce = 1.0
+
+[sub_resource type="CircleShape2D" id=5]
+radius = 16.0
+
+[sub_resource type="CircleShape2D" id=6]
+radius = 16.0
 
 [sub_resource type="PhysicsMaterial" id=2]
 bounce = 1.0
@@ -60,6 +56,38 @@ collision_mask = 2147483650
 [node name="CollisionShape2D" type="CollisionShape2D" parent="OutOfBounds"]
 position = Vector2( 0, -120 )
 shape = SubResource( 1 )
+
+[node name="SuperPin" type="Node2D" parent="."]
+position = Vector2( 224, 224 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="SuperPin"]
+physics_material_override = SubResource( 4 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SuperPin/StaticBody2D"]
+shape = SubResource( 5 )
+
+[node name="Area2D" type="Area2D" parent="SuperPin"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SuperPin/Area2D"]
+shape = SubResource( 6 )
+
+[node name="Sprite" type="Sprite" parent="SuperPin"]
+modulate = Color( 0, 1, 0, 1 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 11 )
+
+[node name="Label" type="Label" parent="SuperPin"]
+margin_left = -160.0
+margin_top = -160.0
+margin_right = 160.0
+margin_bottom = 160.0
+custom_fonts/font = ExtResource( 12 )
+text = "0"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="SuperPin2" parent="." instance=ExtResource( 8 )]
 modulate = Color( 0.392157, 0, 0.501961, 1 )
@@ -191,11 +219,9 @@ position = Vector2( 368, 416 )
 [node name="Pin17" parent="Pins" instance=ExtResource( 5 )]
 position = Vector2( 400, 416 )
 
-[node name="SuperPin" parent="Pins" instance=ExtResource( 8 )]
-position = Vector2( 224, 224 )
-
 [node name="Flipper" parent="." instance=ExtResource( 3 )]
 position = Vector2( 472, 48 )
 [connection signal="body_entered" from="OutOfBounds" to="." method="_on_OutOfBounds_body_entered"]
+[connection signal="body_entered" from="SuperPin/Area2D" to="." method="_on_SuperPin_body_entered"]
 [connection signal="bottom_score" from="BottomBox" to="." method="_on_BottomBox_bottom_score" flags=3]
 [connection signal="ball_launched" from="Launcher" to="." method="_on_Launcher_ball_launched"]
