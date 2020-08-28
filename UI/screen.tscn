@@ -6,7 +6,7 @@
 
 [node name="Screen" type="CanvasLayer"]
 script = ExtResource( 2 )
-game_name = "Unexpected
+intro_text = "Unexpected
 Item in the
 Bagatelle
 Arena"

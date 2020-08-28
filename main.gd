@@ -11,14 +11,17 @@ onready var score_box = $"ScoreBox/Score"
 onready var balls_left = $"ScoreBox/Balls"
 onready var ui = $Screen
 
+var game_name
 
 func _init():
 	randomize()
+	game_name = "New Game"
+	seed(game_name.hash())
 
 
 func new_game():
 	scored(0)
-	arena.new_game()
+	arena.new_game(game_name)
 
 
 func new_ball():
@@ -39,7 +42,7 @@ func _on_Arena_score(score):
 
 func _on_Timer_timeout():
 	if left == 0:
-		ui.show_game_over()
+		ui.show_game_over(game_name, total)
 	else:
 		new_ball()
 

@@ -9,11 +9,11 @@ onready var message = $"Control/Message"
 onready var message_timer = $MessageTimer
 onready var start_button = $StartButton
 
-export(String, MULTILINE) var game_name
+export(String, MULTILINE) var intro_text
 
 
 func _ready():
-	show_start()
+	show_start(intro_text)
 
 
 func show_message(text):
@@ -22,15 +22,15 @@ func show_message(text):
 	message_timer.start()
 
 
-func show_game_over():
+func show_game_over(game_name, score):
 	panel.show()
-	show_message("Game Over")
+	show_message("Game Over\n\n%4d" % score)
 	# Wait until the message_timer has counted down.
 	yield(message_timer, "timeout")
-	show_start()
+	show_start(game_name)
 
 
-func show_start():
+func show_start(game_name):
 	message.text = game_name
 	message.show()
 	# Make a one-shot timer and wait for it to finish.

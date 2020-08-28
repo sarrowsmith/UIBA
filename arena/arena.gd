@@ -13,7 +13,7 @@ var can_launch = false
 var score_multiplier = 0
 
 
-func new_game():
+func new_game(game_name):
 	score_multiplier = 0
 	bonus_label.text = str(score_multiplier)
 	score_pocket = 0
