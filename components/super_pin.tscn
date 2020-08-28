@@ -12,10 +12,10 @@ radius = 160.0
 [node name="SuperPin" type="Node2D"]
 scale = Vector2( 0.1, 0.1 )
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
+[node name="SuperPin" type="StaticBody2D" parent="."]
 physics_material_override = SubResource( 1 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SuperPin"]
 shape = SubResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]

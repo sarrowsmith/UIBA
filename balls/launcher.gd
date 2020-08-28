@@ -7,8 +7,8 @@ export (PackedScene) var Ball
 export var reset = 1.0
 export var impulse = 0.0
 
-onready var resetTimer = $ResetTimer
-onready var openPort = $Open
+onready var reset_timer = $ResetTimer
+onready var open_port = $Open
 
 var ball
 var balls = []
@@ -31,14 +31,14 @@ func new_game():
 
 func new_ball():
 	if state == CAN_RESET:
-		openPort.visible = true
-		resetTimer.start(reset)
+		open_port.visible = true
+		reset_timer.start(reset)
 
 
 func launch_ball():
 	if state == CAN_LAUNCH:
 		state = LAUNCHED
-		resetTimer.start(reset)
+		reset_timer.start(reset)
 		ball.apply_central_impulse(Vector2(0, -30) * impulse)
 		emit_signal("ball_launched")
 
@@ -48,9 +48,9 @@ func _on_ResetTimer_timeout():
 		ball = Ball.instance()
 		add_child(ball)
 		balls.append(ball)
-		resetTimer.start(reset)
+		reset_timer.start(reset)
 	else:
-		openPort.visible = false
+		open_port.visible = false
 	state += 1
 
 

@@ -5,7 +5,7 @@ signal score(score)
 
 onready var launcher = $Launcher
 onready var bottom = $BottomBox
-onready var superPinLabel = $"SuperPin/Label"
+onready var bonus_label = $"BonusPin/Label"
 
 var bottom_pocket = 0
 var score_pocket = 0
@@ -15,7 +15,7 @@ var score_multiplier = 0
 
 func new_game():
 	score_multiplier = 0
-	superPinLabel.text = str(score_multiplier)
+	bonus_label.text = str(score_multiplier)
 	score_pocket = 0
 	can_launch = true
 	launcher.new_game()
@@ -45,6 +45,6 @@ func _on_OutOfBounds_body_entered(body):
 	launcher.new_ball()
 
 
-func _on_SuperPin_body_entered(_body):
+func _on_BonusPin_body_entered(_body):
 	score_multiplier += 1
-	superPinLabel.text = str(score_multiplier)
+	bonus_label.text = str(score_multiplier)

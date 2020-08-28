@@ -7,9 +7,9 @@ onready var total = 0
 onready var left = balls
 onready var arena = $Arena
 onready var timeout = $Timer
-onready var scoreBox = $"ScoreBox/Score"
-onready var ballsLeft = $"ScoreBox/Balls"
-onready var UI = $Screen
+onready var score_box = $"ScoreBox/Score"
+onready var balls_left = $"ScoreBox/Balls"
+onready var ui = $Screen
 
 
 func _init():
@@ -24,12 +24,12 @@ func new_game():
 func new_ball():
 	if arena.new_ball():
 		left -= 1
-		ballsLeft.text = str(left)
+		balls_left.text = str(left)
 
 
 func scored(value):
 	total += value
-	scoreBox.text = "%04d" % total
+	score_box.text = "%04d" % total
 
 
 func _on_Arena_score(score):
@@ -39,7 +39,7 @@ func _on_Arena_score(score):
 
 func _on_Timer_timeout():
 	if left == 0:
-		UI.show_game_over()
+		ui.show_game_over()
 	else:
 		new_ball()
 
