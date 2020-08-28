@@ -1,13 +1,9 @@
 extends RigidBody2D
 
 
-export(String) var hit_names
-export(Array) var hit_sounds
+signal ball_hit(string)
 
-var sound_map
-
-func _ready():
-	pass
+var sound_map = {}
 
 
 func _on_Timer_timeout():
@@ -17,5 +13,5 @@ func _on_Timer_timeout():
 
 func _on_Ball_body_entered(body):
 	if !can_sleep:
-		print(body.name)
+		emit_signal("ball_hit", body.name)
 

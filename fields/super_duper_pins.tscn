@@ -5,7 +5,7 @@
 
 [node name="SuperPins" type="Node2D"]
 script = ExtResource( 1 )
-animationType = 2
+animation_type = 2
 
 [node name="SuperPin" parent="." instance=ExtResource( 2 )]
 position = Vector2( 0, -48 )

@@ -39,8 +39,8 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Pin2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 0, -56 )
+[node name="Pin" parent="." instance=ExtResource( 2 )]
+position = Vector2( 0, -64 )
 
 [node name="Block" parent="." instance=ExtResource( 3 )]
 position = Vector2( 32, -80 )

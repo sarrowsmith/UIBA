@@ -24,7 +24,7 @@ func show_message(text):
 
 func show_game_over(game_name, score):
 	panel.show()
-	show_message("Game Over\n\n%4d" % score)
+	show_message("Game Over\n\n%04d" % score)
 	# Wait until the message_timer has counted down.
 	yield(message_timer, "timeout")
 	show_start(game_name)

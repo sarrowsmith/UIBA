@@ -6,7 +6,7 @@
 [node name="Pachinko" type="Node2D"]
 rotation = 0.785398
 script = ExtResource( 1 )
-animationType = 2
+animation_type = 2
 
 [node name="Pin4" parent="." instance=ExtResource( 2 )]
 position = Vector2( -48, -48 )

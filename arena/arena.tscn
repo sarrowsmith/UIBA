@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://arena/arena.gd" type="Script" id=1]
 [ext_resource path="res://arena/bottom_box.tscn" type="PackedScene" id=2]
@@ -11,7 +11,6 @@
 [ext_resource path="res://fields/small_field.tscn" type="PackedScene" id=9]
 [ext_resource path="res://fields/big_field.tscn" type="PackedScene" id=10]
 [ext_resource path="res://assets/ballBlue_10.png" type="Texture" id=11]
-[ext_resource path="res://assets/default_font.tres" type="DynamicFont" id=12]
 
 [sub_resource type="SegmentShape2D" id=1]
 a = Vector2( 472, 120 )
@@ -24,13 +23,20 @@ bounce = 1.0
 [sub_resource type="CircleShape2D" id=3]
 radius = 16.0
 
-[sub_resource type="CircleShape2D" id=7]
+[sub_resource type="DynamicFontData" id=4]
+font_path = "res://assets/NotoColorEmoji.ttf"
+
+[sub_resource type="DynamicFont" id=5]
+size = 36
+font_data = SubResource( 4 )
+
+[sub_resource type="CircleShape2D" id=6]
 radius = 16.0
 
-[sub_resource type="PhysicsMaterial" id=5]
+[sub_resource type="PhysicsMaterial" id=7]
 bounce = 1.0
 
-[sub_resource type="SegmentShape2D" id=6]
+[sub_resource type="SegmentShape2D" id=8]
 a = Vector2( 320, -240 )
 b = Vector2( 0.000244141, 0 )
 
@@ -76,7 +82,7 @@ margin_left = -160.0
 margin_top = -160.0
 margin_right = 160.0
 margin_bottom = 160.0
-custom_fonts/font = ExtResource( 12 )
+custom_fonts/font = SubResource( 5 )
 text = "0"
 align = 1
 valign = 1
@@ -87,9 +93,9 @@ __meta__ = {
 [node name="Area2D" type="Area2D" parent="BonusPin"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="BonusPin/Area2D"]
-shape = SubResource( 7 )
+shape = SubResource( 6 )
 
-[node name="SuperPin2" parent="." instance=ExtResource( 8 )]
+[node name="SuperPin" parent="." instance=ExtResource( 8 )]
 modulate = Color( 0.392157, 0, 0.501961, 1 )
 position = Vector2( 8, 224 )
 
@@ -151,24 +157,24 @@ position = Vector2( 384, 512 )
 [node name="SmallField3" parent="Fields" instance=ExtResource( 9 )]
 position = Vector2( 160, 128 )
 
-[node name="SmallField4" parent="Fields" instance=ExtResource( 9 )]
-position = Vector2( 288, 128 )
+[node name="BigField" parent="Fields" instance=ExtResource( 10 )]
+position = Vector2( 320, 128 )
 
 [node name="Gate" type="StaticBody2D" parent="."]
 position = Vector2( 448, 280 )
 scale = Vector2( 0.1, 0.1 )
-physics_material_override = SubResource( 5 )
+physics_material_override = SubResource( 7 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Gate"]
-shape = SubResource( 6 )
+shape = SubResource( 8 )
 one_way_collision = true
 
 [node name="Pins" type="Node2D" parent="."]
 
-[node name="Pin5" parent="Pins" instance=ExtResource( 5 )]
+[node name="Pin1" parent="Pins" instance=ExtResource( 5 )]
 position = Vector2( 448, 280 )
 
-[node name="Pin3" parent="Pins" instance=ExtResource( 5 )]
+[node name="Pin2" parent="Pins" instance=ExtResource( 5 )]
 position = Vector2( 8, 416 )
 
 [node name="Pin4" parent="Pins" instance=ExtResource( 5 )]
