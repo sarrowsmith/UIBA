@@ -4,6 +4,7 @@ extends RigidBody2D
 signal ball_hit(string)
 
 var sound_map = {}
+var last_hit = null
 
 
 func _on_Timer_timeout():
@@ -13,5 +14,7 @@ func _on_Timer_timeout():
 
 func _on_Ball_body_entered(body):
 	if !can_sleep:
-		emit_signal("ball_hit", body.name)
+		if body != last_hit:
+			emit_signal("ball_hit", body.name)
+			last_hit = body
 

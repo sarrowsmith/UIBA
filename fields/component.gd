@@ -1,6 +1,8 @@
 extends Node2D
 
 
+const Utils = preload("res://utils.gd")
+
 enum Type { NONE, SELF, EXTERNAL }
 export(Type) var animation_type
 
@@ -8,5 +10,4 @@ export(Type) var animation_type
 func _ready():
 	if animation_type == Type.SELF:
 		var animationPlayer = $AnimationPlayer
-		var animations = animationPlayer.get_animation_list()
-		animationPlayer.play(animations[randi() % len(animations)])
+		animationPlayer.play(Utils.pick(animationPlayer.get_animation_list()))

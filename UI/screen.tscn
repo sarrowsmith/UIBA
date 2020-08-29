@@ -10,6 +10,10 @@ intro_text = "Unexpected
 Item in the
 Bagatelle
 Arena"
+instructions = "Press Enter
+or click
+Launcher to
+launch ball"
 
 [node name="Control" type="Control" parent="."]
 anchor_right = 1.0

@@ -1,6 +1,8 @@
 extends Node2D
 
 
+const Utils = preload("res://utils.gd")
+
 export(AudioStream) var score_sound
 export(AudioStream) var game_over_sound
 export var next = 1.5
@@ -12,21 +14,22 @@ onready var arena = $Arena
 onready var timeout = $Timer
 onready var score_box = $"ScoreBox/Score"
 onready var balls_left = $"ScoreBox/Balls"
+onready var multiplier = $"ScoreBox/Multiplier"
 onready var ui = $Screen
 onready var audio = $AudioStreamPlayer
 
-var game_name
+var game_name = ["New Game", "00", "New Game"]
 
 
 func _init():
-	randomize()
-	game_name = "New Game"
-	seed(game_name.hash())
+	Utils.init()
+	#game_name = Utils.generate_name(Utils.load_json_resource("assets/names.json"))
+	seed(game_name[0].hash())
 
 
 func new_game():
 	scored(0)
-	arena.new_game(game_name)
+	arena.new_game(game_name, multiplier)
 
 
 func new_ball():
@@ -50,7 +53,7 @@ func _on_Arena_score(score):
 
 func _on_Timer_timeout():
 	if left == 0:
-		ui.show_game_over(game_name, total)
+		ui.show_game_over(game_name[2], total)
 		audio.stream = game_over_sound
 		audio.play()
 	else:

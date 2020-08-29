@@ -6,16 +6,24 @@ signal score(score)
 onready var launcher = $Launcher
 onready var bottom = $BottomBox
 onready var bonus_label = $"BonusPin/Label"
+onready var bonus_pin = $"BonusPin/Area2D"
 
 var bottom_pocket = 0
 var score_pocket = 0
 var can_launch = false
 var score_multiplier = 0
+var multiplier_label
 
 
-func new_game(game_name):
+func _ready():
+	bonus_pin.connect("body_entered", self, "_on_BonusPin_body_entered")
+
+
+func new_game(game_name, multiplier):
+	bonus_label = game_name[1]
+	multiplier_label = multiplier
 	score_multiplier = 0
-	bonus_label.text = str(score_multiplier)
+	inc_multiplier()
 	score_pocket = 0
 	can_launch = true
 	launcher.new_game()
@@ -37,7 +45,7 @@ func _on_BottomBox_bottom_score(pocket_number, score):
 	if pocket_number != bottom_pocket:
 		can_launch = true
 		score_pocket = pocket_number
-		emit_signal("score", score * (1 + score_multiplier))
+		emit_signal("score", score * (score_multiplier))
 
 
 func _on_OutOfBounds_body_entered(body):
@@ -45,6 +53,12 @@ func _on_OutOfBounds_body_entered(body):
 	launcher.new_ball()
 
 
-func _on_BonusPin_body_entered(_body):
+func inc_multiplier():
+	if multiplier_label == null:
+		return
 	score_multiplier += 1
-	bonus_label.text = str(score_multiplier)
+	multiplier_label.text = "x%d" % score_multiplier
+
+
+func _on_BonusPin_body_entered(_body):
+	inc_multiplier()

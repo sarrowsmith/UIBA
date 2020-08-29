@@ -10,6 +10,7 @@ onready var message_timer = $MessageTimer
 onready var start_button = $StartButton
 
 export(String, MULTILINE) var intro_text
+export(String, MULTILINE) var instructions
 
 
 func _ready():
@@ -44,5 +45,7 @@ func _on_MessageTimer_timeout():
 
 func _on_StartButton_pressed():
 	start_button.hide()
-	panel.hide()
+	show_message(instructions)
 	emit_signal("start_game")
+	yield(message_timer, "timeout")
+	panel.hide()
