@@ -17,7 +17,10 @@ launch ball"
 
 [node name="Control" type="Control" parent="."]
 anchor_right = 1.0
-anchor_bottom = 1.0
+margin_left = 32.0
+margin_top = 64.0
+margin_right = -32.0
+margin_bottom = 512.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -25,6 +28,7 @@ __meta__ = {
 [node name="ColorRect" type="ColorRect" parent="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_bottom = 48.0
 color = Color( 0.501961, 0.501961, 0.501961, 0.501961 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -33,7 +37,8 @@ __meta__ = {
 [node name="Message" type="Label" parent="Control"]
 modulate = Color( 0, 1, 0.25098, 1 )
 anchor_right = 1.0
-margin_bottom = 480.0
+anchor_bottom = 1.0
+margin_bottom = 48.0
 custom_fonts/font = ExtResource( 3 )
 align = 1
 valign = 1
@@ -43,6 +48,10 @@ __meta__ = {
 }
 
 [node name="StartButton" parent="." instance=ExtResource( 1 )]
+margin_left = -96.0
+margin_top = -128.0
+margin_right = 104.0
+margin_bottom = -28.0
 
 [node name="MessageTimer" type="Timer" parent="."]
 wait_time = 2.0
