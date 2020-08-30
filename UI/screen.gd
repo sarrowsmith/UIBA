@@ -14,7 +14,7 @@ export(String, MULTILINE) var instructions
 
 
 func _ready():
-	show_start(intro_text)
+	show_start(intro_text, 0)
 
 
 func show_message(text):
@@ -28,11 +28,13 @@ func show_game_over(game_name, score):
 	show_message("Game Over\n\n%04d" % score)
 	# Wait until the message_timer has counted down.
 	yield(message_timer, "timeout")
-	show_start(game_name)
+	show_start(game_name, score)
 
 
-func show_start(game_name):
+func show_start(game_name, score):
 	message.text = game_name
+	if score:
+		message.text += "\n%04d" % score
 	message.show()
 	# Make a one-shot timer and wait for it to finish.
 	yield(get_tree().create_timer(1), "timeout")
