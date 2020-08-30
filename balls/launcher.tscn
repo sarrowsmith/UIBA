@@ -53,5 +53,6 @@ scale = Vector2( 0.125, 0.125 )
 texture = ExtResource( 1 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+bus = "Ball"
 [connection signal="timeout" from="ResetTimer" to="." method="_on_ResetTimer_timeout"]
 [connection signal="pressed" from="StartButton" to="." method="_on_StartButton_pressed"]

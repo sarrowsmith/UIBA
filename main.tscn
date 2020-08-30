@@ -22,6 +22,7 @@ game_over_sound = ExtResource( 6 )
 one_shot = true
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+bus = "Main"
 [connection signal="score" from="Arena" to="." method="_on_Arena_score"]
 [connection signal="start_game" from="Screen" to="." method="_on_HUD_start_game"]
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

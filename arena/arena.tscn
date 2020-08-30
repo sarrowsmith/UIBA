@@ -185,6 +185,7 @@ position = Vector2( 472, 44 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 12 )
+bus = "Ball"
 [connection signal="body_entered" from="OutOfBounds" to="." method="_on_OutOfBounds_body_entered"]
 [connection signal="bottom_score" from="BottomBox" to="." method="_on_BottomBox_bottom_score" flags=3]
 [connection signal="ball_launched" from="Launcher" to="." method="_on_Launcher_ball_launched"]
