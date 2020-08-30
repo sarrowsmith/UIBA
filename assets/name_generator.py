@@ -1,10 +1,8 @@
 #!/usr/bin/python3
 
 import unicodedata
-import json
 
-adjectives = []
-for n in range(0x25AA, 0x2B56):
+for n in range(0x2648, 0x2654):
     a_chr = chr(n)
     try:
         adjective = unicodedata.name(a_chr)
@@ -22,10 +20,9 @@ for n in range(0x25AA, 0x2B56):
     short = short.replace("  ", " ").replace(" -", " ").strip().strip("-")
     if len(short) > 30:
         continue
-    adjectives.append([adjective, a_chr, short.title()])
+    print("adjective\t%s\t%s\t%s" % (a_chr, short.title(), adjective))
 
-nouns = []
-for n in range(0x1F300, 0x1FA96):
+for n in range(0x1F300, 0x1F322):
     n_chr = chr(n)
     try:
         noun = unicodedata.name(n_chr)
@@ -43,7 +40,4 @@ for n in range(0x1F300, 0x1FA96):
     short = short.replace(" AND ", " & ").replace("  ", " ").replace(" -", " ").strip().strip("-")
     if len(short) > 30:
         continue
-    nouns.append([noun, n_chr, short.title()])
-
-everything = {"adjectives": adjectives, "nouns": nouns}
-print(json.dumps(everything, indent=2))
+    print("noun\t%s\t%s\t%s" % (n_chr, short.title(), noun))

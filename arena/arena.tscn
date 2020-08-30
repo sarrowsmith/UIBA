@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://arena/arena.gd" type="Script" id=1]
 [ext_resource path="res://arena/bottom_box.tscn" type="PackedScene" id=2]
@@ -11,6 +11,7 @@
 [ext_resource path="res://fields/small_field.tscn" type="PackedScene" id=9]
 [ext_resource path="res://fields/big_field.tscn" type="PackedScene" id=10]
 [ext_resource path="res://arena/bonus_pin.tscn" type="PackedScene" id=11]
+[ext_resource path="res://assets/shoot.wav" type="AudioStream" id=12]
 
 [sub_resource type="SegmentShape2D" id=1]
 a = Vector2( 472, 120 )
@@ -181,6 +182,9 @@ position = Vector2( 400, 416 )
 
 [node name="Flipper" parent="." instance=ExtResource( 3 )]
 position = Vector2( 472, 44 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 12 )
 [connection signal="body_entered" from="OutOfBounds" to="." method="_on_OutOfBounds_body_entered"]
 [connection signal="bottom_score" from="BottomBox" to="." method="_on_BottomBox_bottom_score" flags=3]
 [connection signal="ball_launched" from="Launcher" to="." method="_on_Launcher_ball_launched"]

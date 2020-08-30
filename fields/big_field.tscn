@@ -52,7 +52,7 @@ tracks/0/keys = {
 [node name="BigField" type="Node2D"]
 script = ExtResource( 1 )
 components = [ ExtResource( 6 ), ExtResource( 8 ), ExtResource( 4 ), ExtResource( 10 ), ExtResource( 2 ), ExtResource( 5 ), ExtResource( 9 ), ExtResource( 7 ), ExtResource( 11 ), ExtResource( 12 ) ]
-canAnimate = true
+can_animate = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/Sunwise = SubResource( 1 )

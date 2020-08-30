@@ -17,7 +17,7 @@ extents = Vector2( 16, 24 )
 script = ExtResource( 3 )
 Ball = ExtResource( 2 )
 hit_names = [ "Pin", "SuperPin", "Flipper", "BonusPin" ]
-hit_sounds = [ ExtResource( 8 ), ExtResource( 7 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 9 ) ]
+hit_sounds = [ ExtResource( 8 ), ExtResource( 7 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 9 ) ]
 launch_sound = ExtResource( 6 )
 
 [node name="ResetTimer" type="Timer" parent="."]

@@ -23,13 +23,13 @@ var game_name = ["New Game", "00", "New Game"]
 
 func _init():
 	Utils.init()
-	#game_name = Utils.generate_name(Utils.load_json_resource("assets/names.json"))
+	game_name = Utils.generate_name(Utils.load_tsv_resource("assets/names"))
 	seed(game_name[0].hash())
 
 
 func new_game():
 	scored(0)
-	arena.new_game(game_name, multiplier)
+	arena.new_game(game_name[2], multiplier)
 
 
 func new_ball():
@@ -53,7 +53,7 @@ func _on_Arena_score(score):
 
 func _on_Timer_timeout():
 	if left == 0:
-		ui.show_game_over(game_name[2], total)
+		ui.show_game_over(game_name[1], total)
 		audio.stream = game_over_sound
 		audio.play()
 	else:
