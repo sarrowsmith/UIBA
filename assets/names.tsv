@@ -1,3 +1,34 @@
+adjective	▪	Small Square	BLACK SMALL SQUARE
+adjective	▫	Small Square	WHITE SMALL SQUARE
+adjective	▶	Right-Pointing Triangle	BLACK RIGHT-POINTING TRIANGLE
+adjective	◀	Left-Pointing Triangle	BLACK LEFT-POINTING TRIANGLE
+adjective	◻	Medium Square	WHITE MEDIUM SQUARE
+adjective	◼	Medium Square	BLACK MEDIUM SQUARE
+adjective	◽	Medium Small Square	WHITE MEDIUM SMALL SQUARE
+adjective	◾	Medium Small Square	BLACK MEDIUM SMALL SQUARE
+adjective	☀	Sun With Rays	BLACK SUN WITH RAYS
+adjective	☁	Cloud	CLOUD
+adjective	☂	Umbrella	UMBRELLA
+adjective	☃	Snowman	SNOWMAN
+adjective	☄	Comet	COMET
+adjective	☎	Telephone	BLACK TELEPHONE
+adjective	☑	Ballot Box With Check	BALLOT BOX WITH CHECK
+adjective	☔	Umbrella With Rain Drops	UMBRELLA WITH RAIN DROPS
+adjective	☕	Hot Beverage	HOT BEVERAGE
+adjective	☘	Shamrock	SHAMROCK
+adjective	☝	Up Pointing Index	WHITE UP POINTING INDEX
+adjective	☠	Skull And Crossbones	SKULL AND CROSSBONES
+adjective	☢	Radioactive	RADIOACTIVE SIGN
+adjective	☣	Biohazard	BIOHAZARD SIGN
+adjective	☦	Orthodox Cross	ORTHODOX CROSS
+adjective	☪	Star And Crescent	STAR AND CRESCENT
+adjective	☮	Peace	PEACE SYMBOL
+adjective	☯	Yin Yang	YIN YANG
+adjective	☸	Wheel Of Dharma	WHEEL OF DHARMA
+adjective	☹	Frowning Face	WHITE FROWNING FACE
+adjective	☺	Smiling Face	WHITE SMILING FACE
+adjective	♀	Female	FEMALE SIGN
+adjective	♂	Male	MALE SIGN
 adjective	♈	Aries	ARIES
 adjective	♉	Taurus	TAURUS
 adjective	♊	Gemini	GEMINI
@@ -10,6 +41,97 @@ adjective	♐	Sagittarius	SAGITTARIUS
 adjective	♑	Capricorn	CAPRICORN
 adjective	♒	Aquarius	AQUARIUS
 adjective	♓	Pisces	PISCES
+adjective	♟	Pawn	BLACK CHESS PAWN
+adjective	♠	Spade	BLACK SPADE SUIT
+adjective	♣	Club	BLACK CLUB SUIT
+adjective	♥	Heart	BLACK HEART SUIT
+adjective	♦	Diamond	BLACK DIAMOND SUIT
+adjective	♨	Hot Springs	HOT SPRINGS
+adjective	♻	Universal Recycling	BLACK UNIVERSAL RECYCLING SYMBOL
+adjective	♾	Permanent Paper	PERMANENT PAPER SIGN
+adjective	♿	Wheelchair	WHEELCHAIR SYMBOL
+adjective	⚒	Hammer And Pick	HAMMER AND PICK
+adjective	⚓	Anchor	ANCHOR
+adjective	⚔	Crossed Swords	CROSSED SWORDS
+adjective	⚕	Staff Of Aesculapius	STAFF OF AESCULAPIUS
+adjective	⚖	Scales	SCALES
+adjective	⚗	Alembic	ALEMBIC
+adjective	⚙	Gear	GEAR
+adjective	⚛	Atom	ATOM SYMBOL
+adjective	⚜	Fleur-De-Lis	FLEUR-DE-LIS
+adjective	⚠	Warning	WARNING SIGN
+adjective	⚡	High Voltage	HIGH VOLTAGE SIGN
+adjective	⚪	Medium Circle	MEDIUM WHITE CIRCLE
+adjective	⚫	Medium Circle	MEDIUM BLACK CIRCLE
+adjective	⚰	Coffin	COFFIN
+adjective	⚱	Funeral Urn	FUNERAL URN
+adjective	⚽	Soccer Ball	SOCCER BALL
+adjective	⚾	Baseball	BASEBALL
+adjective	⛄	Snowman Without Snow	SNOWMAN WITHOUT SNOW
+adjective	⛅	Sun Behind Cloud	SUN BEHIND CLOUD
+adjective	⛈	Thunder Cloud And Rain	THUNDER CLOUD AND RAIN
+adjective	⛎	Ophiuchus	OPHIUCHUS
+adjective	⛏	Pick	PICK
+adjective	⛑	Helmet With Cross	HELMET WITH WHITE CROSS
+adjective	⛓	Chains	CHAINS
+adjective	⛔	No Entry	NO ENTRY
+adjective	⛩	Shinto Shrine	SHINTO SHRINE
+adjective	⛪	Church	CHURCH
+adjective	⛰	Mountain	MOUNTAIN
+adjective	⛱	Umbrella On Ground	UMBRELLA ON GROUND
+adjective	⛲	Fountain	FOUNTAIN
+adjective	⛳	Flag In Hole	FLAG IN HOLE
+adjective	⛴	Ferry	FERRY
+adjective	⛵	Sailboat	SAILBOAT
+adjective	⛷	Skier	SKIER
+adjective	⛸	Ice Skate	ICE SKATE
+adjective	⛹	Person With Ball	PERSON WITH BALL
+adjective	⛺	Tent	TENT
+adjective	⛽	Fuel Pump	FUEL PUMP
+adjective	✂	Scissors	BLACK SCISSORS
+adjective	✅	Heavy Check	WHITE HEAVY CHECK MARK
+adjective	✈	Airplane	AIRPLANE
+adjective	✉	Envelope	ENVELOPE
+adjective	✊	Raised Fist	RAISED FIST
+adjective	✋	Raised Hand	RAISED HAND
+adjective	✌	Victory Hand	VICTORY HAND
+adjective	✍	Writing Hand	WRITING HAND
+adjective	✏	Pencil	PENCIL
+adjective	✒	Nib	BLACK NIB
+adjective	✔	Heavy Check	HEAVY CHECK MARK
+adjective	✖	Heavy Multiplication X	HEAVY MULTIPLICATION X
+adjective	✝	Latin Cross	LATIN CROSS
+adjective	✡	Star Of David	STAR OF DAVID
+adjective	✨	Sparkles	SPARKLES
+adjective	✳	Eight Spoked Asterisk	EIGHT SPOKED ASTERISK
+adjective	✴	Eight Pointed Star	EIGHT POINTED BLACK STAR
+adjective	❄	Snowflake	SNOWFLAKE
+adjective	❇	Sparkle	SPARKLE
+adjective	❌	Cross	CROSS MARK
+adjective	❎	Negative Squared Cross	NEGATIVE SQUARED CROSS MARK
+adjective	❓	Question	BLACK QUESTION MARK ORNAMENT
+adjective	❔	Question	WHITE QUESTION MARK ORNAMENT
+adjective	❕	Exclamation	WHITE EXCLAMATION MARK ORNAMENT
+adjective	❗	Heavy Exclamation	HEAVY EXCLAMATION MARK SYMBOL
+adjective	❣	Heavy Heart Exclamation	HEAVY HEART EXCLAMATION MARK ORNAMENT
+adjective	❤	Heavy Heart	HEAVY BLACK HEART
+adjective	➕	Heavy Plus	HEAVY PLUS SIGN
+adjective	➖	Heavy Minus	HEAVY MINUS SIGN
+adjective	➗	Heavy Division	HEAVY DIVISION SIGN
+adjective	➡	Rightwards	BLACK RIGHTWARDS ARROW
+adjective	➰	Curly Loop	CURLY LOOP
+adjective	➿	Double Curly Loop	DOUBLE CURLY LOOP
+adjective	⬅	Leftwards	LEFTWARDS BLACK ARROW
+adjective	⬆	Upwards	UPWARDS BLACK ARROW
+adjective	⬇	Downwards	DOWNWARDS BLACK ARROW
+adjective	⬛	Large Square	BLACK LARGE SQUARE
+adjective	⬜	Large Square	WHITE LARGE SQUARE
+adjective	⭐	Medium Star	WHITE MEDIUM STAR
+adjective	⭕	Heavy Large Circle	HEAVY LARGE CIRCLE
+noun	🀄	Mahjong Tile Red Dragon	MAHJONG TILE RED DRAGON
+noun	🃏	Playing Card Joker	PLAYING CARD BLACK JOKER
+noun	🉐	Advantage	CIRCLED IDEOGRAPH ADVANTAGE
+noun	🉑	Accept	CIRCLED IDEOGRAPH ACCEPT
 noun	🌀	Cyclone	CYCLONE
 noun	🌁	Foggy	FOGGY
 noun	🌂	Closed Umbrella	CLOSED UMBRELLA
@@ -44,3 +166,981 @@ noun	🌞	Sun With Face	SUN WITH FACE
 noun	🌟	Glowing Star	GLOWING STAR
 noun	🌠	Shooting Star	SHOOTING STAR
 noun	🌡	Thermometer	THERMOMETER
+noun	🌤	Sun With Small Cloud	WHITE SUN WITH SMALL CLOUD
+noun	🌥	Sun Behind Cloud	WHITE SUN BEHIND CLOUD
+noun	🌦	Sun Behind Cloud With Rain	WHITE SUN BEHIND CLOUD WITH RAIN
+noun	🌧	Cloud With Rain	CLOUD WITH RAIN
+noun	🌨	Cloud With Snow	CLOUD WITH SNOW
+noun	🌩	Cloud With Lightning	CLOUD WITH LIGHTNING
+noun	🌪	Cloud With Tornado	CLOUD WITH TORNADO
+noun	🌫	Fog	FOG
+noun	🌬	Wind Blowing Face	WIND BLOWING FACE
+noun	🌭	Hot Dog	HOT DOG
+noun	🌮	Taco	TACO
+noun	🌯	Burrito	BURRITO
+noun	🌰	Chestnut	CHESTNUT
+noun	🌱	Seedling	SEEDLING
+noun	🌲	Evergreen Tree	EVERGREEN TREE
+noun	🌳	Deciduous Tree	DECIDUOUS TREE
+noun	🌴	Palm Tree	PALM TREE
+noun	🌵	Cactus	CACTUS
+noun	🌶	Hot Pepper	HOT PEPPER
+noun	🌷	Tulip	TULIP
+noun	🌸	Cherry Blossom	CHERRY BLOSSOM
+noun	🌹	Rose	ROSE
+noun	🌺	Hibiscus	HIBISCUS
+noun	🌻	Sunflower	SUNFLOWER
+noun	🌼	Blossom	BLOSSOM
+noun	🌽	Ear Of Maize	EAR OF MAIZE
+noun	🌾	Ear Of Rice	EAR OF RICE
+noun	🌿	Herb	HERB
+noun	🍀	Four Leaf Clover	FOUR LEAF CLOVER
+noun	🍁	Maple Leaf	MAPLE LEAF
+noun	🍂	Fallen Leaf	FALLEN LEAF
+noun	🍃	Leaf Fluttering In Wind	LEAF FLUTTERING IN WIND
+noun	🍄	Mushroom	MUSHROOM
+noun	🍅	Tomato	TOMATO
+noun	🍆	Aubergine	AUBERGINE
+noun	🍇	Grapes	GRAPES
+noun	🍈	Melon	MELON
+noun	🍉	Watermelon	WATERMELON
+noun	🍊	Tangerine	TANGERINE
+noun	🍋	Lemon	LEMON
+noun	🍌	Banana	BANANA
+noun	🍍	Pineapple	PINEAPPLE
+noun	🍎	Red Apple	RED APPLE
+noun	🍏	Green Apple	GREEN APPLE
+noun	🍐	Pear	PEAR
+noun	🍑	Peach	PEACH
+noun	🍒	Cherries	CHERRIES
+noun	🍓	Strawberry	STRAWBERRY
+noun	🍔	Hamburger	HAMBURGER
+noun	🍕	Slice Of Pizza	SLICE OF PIZZA
+noun	🍖	Meat On Bone	MEAT ON BONE
+noun	🍗	Poultry Leg	POULTRY LEG
+noun	🍘	Rice Cracker	RICE CRACKER
+noun	🍙	Rice Ball	RICE BALL
+noun	🍚	Cooked Rice	COOKED RICE
+noun	🍛	Curry & Rice	CURRY AND RICE
+noun	🍜	Steaming Bowl	STEAMING BOWL
+noun	🍝	Spaghetti	SPAGHETTI
+noun	🍞	Bread	BREAD
+noun	🍟	French Fries	FRENCH FRIES
+noun	🍠	Roasted Sweet Potato	ROASTED SWEET POTATO
+noun	🍡	Dango	DANGO
+noun	🍢	Oden	ODEN
+noun	🍣	Sushi	SUSHI
+noun	🍤	Fried Shrimp	FRIED SHRIMP
+noun	🍥	Fish Cake With Swirl Design	FISH CAKE WITH SWIRL DESIGN
+noun	🍦	Soft Ice Cream	SOFT ICE CREAM
+noun	🍧	Shaved Ice	SHAVED ICE
+noun	🍨	Ice Cream	ICE CREAM
+noun	🍩	Doughnut	DOUGHNUT
+noun	🍪	Cookie	COOKIE
+noun	🍫	Chocolate Bar	CHOCOLATE BAR
+noun	🍬	Candy	CANDY
+noun	🍭	Lollipop	LOLLIPOP
+noun	🍮	Custard	CUSTARD
+noun	🍯	Honey Pot	HONEY POT
+noun	🍰	Shortcake	SHORTCAKE
+noun	🍱	Bento Box	BENTO BOX
+noun	🍲	Pot Of Food	POT OF FOOD
+noun	🍳	Cooking	COOKING
+noun	🍴	Fork & Knife	FORK AND KNIFE
+noun	🍵	Teacup Without Handle	TEACUP WITHOUT HANDLE
+noun	🍶	Sake Bottle & Cup	SAKE BOTTLE AND CUP
+noun	🍷	Wine Glass	WINE GLASS
+noun	🍸	Cocktail Glass	COCKTAIL GLASS
+noun	🍹	Tropical Drink	TROPICAL DRINK
+noun	🍺	Beer Mug	BEER MUG
+noun	🍻	Clinking Beer Mugs	CLINKING BEER MUGS
+noun	🍼	Baby Bottle	BABY BOTTLE
+noun	🍽	Fork & Knife With Plate	FORK AND KNIFE WITH PLATE
+noun	🍾	Bottle With Popping Cork	BOTTLE WITH POPPING CORK
+noun	🍿	Popcorn	POPCORN
+noun	🎀	Ribbon	RIBBON
+noun	🎁	Wrapped Present	WRAPPED PRESENT
+noun	🎂	Birthday Cake	BIRTHDAY CAKE
+noun	🎃	Jack-O-Lantern	JACK-O-LANTERN
+noun	🎄	Christmas Tree	CHRISTMAS TREE
+noun	🎅	Father Christmas	FATHER CHRISTMAS
+noun	🎆	Fireworks	FIREWORKS
+noun	🎇	Firework Sparkler	FIREWORK SPARKLER
+noun	🎈	Balloon	BALLOON
+noun	🎉	Party Popper	PARTY POPPER
+noun	🎊	Confetti Ball	CONFETTI BALL
+noun	🎋	Tanabata Tree	TANABATA TREE
+noun	🎌	Crossed Flags	CROSSED FLAGS
+noun	🎍	Pine Decoration	PINE DECORATION
+noun	🎎	Japanese Dolls	JAPANESE DOLLS
+noun	🎏	Carp Streamer	CARP STREAMER
+noun	🎐	Wind Chime	WIND CHIME
+noun	🎑	Moon Viewing Ceremony	MOON VIEWING CEREMONY
+noun	🎒	School Satchel	SCHOOL SATCHEL
+noun	🎓	Graduation Cap	GRADUATION CAP
+noun	🎖	Military Medal	MILITARY MEDAL
+noun	🎗	Reminder Ribbon	REMINDER RIBBON
+noun	🎙	Studio Microphone	STUDIO MICROPHONE
+noun	🎚	Level Slider	LEVEL SLIDER
+noun	🎛	Control Knobs	CONTROL KNOBS
+noun	🎞	Film Frames	FILM FRAMES
+noun	🎟	Admission Tickets	ADMISSION TICKETS
+noun	🎠	Carousel Horse	CAROUSEL HORSE
+noun	🎡	Ferris Wheel	FERRIS WHEEL
+noun	🎢	Roller Coaster	ROLLER COASTER
+noun	🎣	Fishing Pole & Fish	FISHING POLE AND FISH
+noun	🎤	Microphone	MICROPHONE
+noun	🎥	Movie Camera	MOVIE CAMERA
+noun	🎦	Cinema	CINEMA
+noun	🎧	Headphone	HEADPHONE
+noun	🎨	Artist Palette	ARTIST PALETTE
+noun	🎩	Top Hat	TOP HAT
+noun	🎪	Circus Tent	CIRCUS TENT
+noun	🎫	Ticket	TICKET
+noun	🎬	Clapper Board	CLAPPER BOARD
+noun	🎭	Performing Arts	PERFORMING ARTS
+noun	🎮	Video Game	VIDEO GAME
+noun	🎯	Direct Hit	DIRECT HIT
+noun	🎰	Slot Machine	SLOT MACHINE
+noun	🎱	Billiards	BILLIARDS
+noun	🎲	Game Die	GAME DIE
+noun	🎳	Bowling	BOWLING
+noun	🎴	Flower Playing Cards	FLOWER PLAYING CARDS
+noun	🎵	Musical Note	MUSICAL NOTE
+noun	🎶	Multiple Musical Notes	MULTIPLE MUSICAL NOTES
+noun	🎷	Saxophone	SAXOPHONE
+noun	🎸	Guitar	GUITAR
+noun	🎹	Musical Keyboard	MUSICAL KEYBOARD
+noun	🎺	Trumpet	TRUMPET
+noun	🎻	Violin	VIOLIN
+noun	🎼	Musical Score	MUSICAL SCORE
+noun	🎽	Running Shirt With Sash	RUNNING SHIRT WITH SASH
+noun	🎾	Tennis Racquet & Ball	TENNIS RACQUET AND BALL
+noun	🎿	Ski & Ski Boot	SKI AND SKI BOOT
+noun	🏀	Basketball & Hoop	BASKETBALL AND HOOP
+noun	🏁	Chequered Flag	CHEQUERED FLAG
+noun	🏂	Snowboarder	SNOWBOARDER
+noun	🏃	Runner	RUNNER
+noun	🏄	Surfer	SURFER
+noun	🏅	Sports Medal	SPORTS MEDAL
+noun	🏆	Trophy	TROPHY
+noun	🏇	Horse Racing	HORSE RACING
+noun	🏈	American Football	AMERICAN FOOTBALL
+noun	🏉	Rugby Football	RUGBY FOOTBALL
+noun	🏊	Swimmer	SWIMMER
+noun	🏋	Weight Lifter	WEIGHT LIFTER
+noun	🏌	Golfer	GOLFER
+noun	🏍	Racing Motorcycle	RACING MOTORCYCLE
+noun	🏎	Racing Car	RACING CAR
+noun	🏏	Cricket Bat & Ball	CRICKET BAT AND BALL
+noun	🏐	Volleyball	VOLLEYBALL
+noun	🏑	Field Hockey Stick & Ball	FIELD HOCKEY STICK AND BALL
+noun	🏒	Ice Hockey Stick & Puck	ICE HOCKEY STICK AND PUCK
+noun	🏓	Table Tennis Paddle & Ball	TABLE TENNIS PADDLE AND BALL
+noun	🏔	Snow Capped Mountain	SNOW CAPPED MOUNTAIN
+noun	🏕	Camping	CAMPING
+noun	🏖	Beach With Umbrella	BEACH WITH UMBRELLA
+noun	🏗	Building Construction	BUILDING CONSTRUCTION
+noun	🏘	House Buildings	HOUSE BUILDINGS
+noun	🏙	Cityscape	CITYSCAPE
+noun	🏚	Derelict House Building	DERELICT HOUSE BUILDING
+noun	🏛	Classical Building	CLASSICAL BUILDING
+noun	🏜	Desert	DESERT
+noun	🏝	Desert Island	DESERT ISLAND
+noun	🏞	National Park	NATIONAL PARK
+noun	🏟	Stadium	STADIUM
+noun	🏠	House Building	HOUSE BUILDING
+noun	🏡	House With Garden	HOUSE WITH GARDEN
+noun	🏢	Office Building	OFFICE BUILDING
+noun	🏣	Japanese Post Office	JAPANESE POST OFFICE
+noun	🏤	European Post Office	EUROPEAN POST OFFICE
+noun	🏥	Hospital	HOSPITAL
+noun	🏦	Bank	BANK
+noun	🏧	Automated Teller Machine	AUTOMATED TELLER MACHINE
+noun	🏨	Hotel	HOTEL
+noun	🏩	Love Hotel	LOVE HOTEL
+noun	🏪	Convenience Store	CONVENIENCE STORE
+noun	🏫	School	SCHOOL
+noun	🏬	Department Store	DEPARTMENT STORE
+noun	🏭	Factory	FACTORY
+noun	🏮	Izakaya Lantern	IZAKAYA LANTERN
+noun	🏯	Japanese Castle	JAPANESE CASTLE
+noun	🏰	European Castle	EUROPEAN CASTLE
+noun	🏳	Waving Flag	WAVING WHITE FLAG
+noun	🏴	Waving Flag	WAVING BLACK FLAG
+noun	🏵	Rosette	ROSETTE
+noun	🏷	Label	LABEL
+noun	🏹	Bow & Arrow	BOW AND ARROW
+noun	🏺	Amphora	AMPHORA
+noun	🐀	Rat	RAT
+noun	🐁	Mouse	MOUSE
+noun	🐂	Ox	OX
+noun	🐃	Water Buffalo	WATER BUFFALO
+noun	🐄	Cow	COW
+noun	🐅	Tiger	TIGER
+noun	🐆	Leopard	LEOPARD
+noun	🐇	Rabbit	RABBIT
+noun	🐈	Cat	CAT
+noun	🐉	Dragon	DRAGON
+noun	🐊	Crocodile	CROCODILE
+noun	🐋	Whale	WHALE
+noun	🐌	Snail	SNAIL
+noun	🐍	Snake	SNAKE
+noun	🐎	Horse	HORSE
+noun	🐏	Ram	RAM
+noun	🐐	Goat	GOAT
+noun	🐑	Sheep	SHEEP
+noun	🐒	Monkey	MONKEY
+noun	🐓	Rooster	ROOSTER
+noun	🐔	Chicken	CHICKEN
+noun	🐕	Dog	DOG
+noun	🐖	Pig	PIG
+noun	🐗	Boar	BOAR
+noun	🐘	Elephant	ELEPHANT
+noun	🐙	Octopus	OCTOPUS
+noun	🐚	Spiral Shell	SPIRAL SHELL
+noun	🐛	Bug	BUG
+noun	🐜	Ant	ANT
+noun	🐝	Honeybee	HONEYBEE
+noun	🐞	Lady Beetle	LADY BEETLE
+noun	🐟	Fish	FISH
+noun	🐠	Tropical Fish	TROPICAL FISH
+noun	🐡	Blowfish	BLOWFISH
+noun	🐢	Turtle	TURTLE
+noun	🐣	Hatching Chick	HATCHING CHICK
+noun	🐤	Baby Chick	BABY CHICK
+noun	🐥	Front-Facing Baby Chick	FRONT-FACING BABY CHICK
+noun	🐦	Bird	BIRD
+noun	🐧	Penguin	PENGUIN
+noun	🐨	Koala	KOALA
+noun	🐩	Poodle	POODLE
+noun	🐪	Dromedary Camel	DROMEDARY CAMEL
+noun	🐫	Bactrian Camel	BACTRIAN CAMEL
+noun	🐬	Dolphin	DOLPHIN
+noun	🐭	Mouse Face	MOUSE FACE
+noun	🐮	Cow Face	COW FACE
+noun	🐯	Tiger Face	TIGER FACE
+noun	🐰	Rabbit Face	RABBIT FACE
+noun	🐱	Cat Face	CAT FACE
+noun	🐲	Dragon Face	DRAGON FACE
+noun	🐳	Spouting Whale	SPOUTING WHALE
+noun	🐴	Horse Face	HORSE FACE
+noun	🐵	Monkey Face	MONKEY FACE
+noun	🐶	Dog Face	DOG FACE
+noun	🐷	Pig Face	PIG FACE
+noun	🐸	Frog Face	FROG FACE
+noun	🐹	Hamster Face	HAMSTER FACE
+noun	🐺	Wolf Face	WOLF FACE
+noun	🐻	Bear Face	BEAR FACE
+noun	🐼	Panda Face	PANDA FACE
+noun	🐽	Pig Nose	PIG NOSE
+noun	🐾	Paw Prints	PAW PRINTS
+noun	🐿	Chipmunk	CHIPMUNK
+noun	👀	Eyes	EYES
+noun	👁	Eye	EYE
+noun	👂	Ear	EAR
+noun	👃	Nose	NOSE
+noun	👄	Mouth	MOUTH
+noun	👅	Tongue	TONGUE
+noun	👆	Up Pointing Backhand	WHITE UP POINTING BACKHAND INDEX
+noun	👇	Down Pointing Backhand	WHITE DOWN POINTING BACKHAND INDEX
+noun	👈	Left Pointing Backhand	WHITE LEFT POINTING BACKHAND INDEX
+noun	👉	Right Pointing Backhand	WHITE RIGHT POINTING BACKHAND INDEX
+noun	👊	Fisted Hand Sign	FISTED HAND SIGN
+noun	👋	Waving Hand Sign	WAVING HAND SIGN
+noun	👌	Ok Hand Sign	OK HAND SIGN
+noun	👍	Thumbs Up Sign	THUMBS UP SIGN
+noun	👎	Thumbs Down Sign	THUMBS DOWN SIGN
+noun	👏	Clapping Hands Sign	CLAPPING HANDS SIGN
+noun	👐	Open Hands Sign	OPEN HANDS SIGN
+noun	👑	Crown	CROWN
+noun	👒	Womans Hat	WOMANS HAT
+noun	👓	Eyeglasses	EYEGLASSES
+noun	👔	Necktie	NECKTIE
+noun	👕	T-Shirt	T-SHIRT
+noun	👖	Jeans	JEANS
+noun	👗	Dress	DRESS
+noun	👘	Kimono	KIMONO
+noun	👙	Bikini	BIKINI
+noun	👚	Womans Clothes	WOMANS CLOTHES
+noun	👛	Purse	PURSE
+noun	👜	Handbag	HANDBAG
+noun	👝	Pouch	POUCH
+noun	👞	Mans Shoe	MANS SHOE
+noun	👟	Athletic Shoe	ATHLETIC SHOE
+noun	👠	High-Heeled Shoe	HIGH-HEELED SHOE
+noun	👡	Womans Sandal	WOMANS SANDAL
+noun	👢	Womans Boots	WOMANS BOOTS
+noun	👣	Footprints	FOOTPRINTS
+noun	👤	Bust In Silhouette	BUST IN SILHOUETTE
+noun	👥	Busts In Silhouette	BUSTS IN SILHOUETTE
+noun	👦	Boy	BOY
+noun	👧	Girl	GIRL
+noun	👨	Man	MAN
+noun	👩	Woman	WOMAN
+noun	👪	Family	FAMILY
+noun	👫	Man & Woman Holding Hands	MAN AND WOMAN HOLDING HANDS
+noun	👬	Two Men Holding Hands	TWO MEN HOLDING HANDS
+noun	👭	Two Women Holding Hands	TWO WOMEN HOLDING HANDS
+noun	👮	Police Officer	POLICE OFFICER
+noun	👯	Woman With Bunny Ears	WOMAN WITH BUNNY EARS
+noun	👰	Bride With Veil	BRIDE WITH VEIL
+noun	👱	Person With Blond Hair	PERSON WITH BLOND HAIR
+noun	👲	Man With Gua Pi Mao	MAN WITH GUA PI MAO
+noun	👳	Man With Turban	MAN WITH TURBAN
+noun	👴	Older Man	OLDER MAN
+noun	👵	Older Woman	OLDER WOMAN
+noun	👶	Baby	BABY
+noun	👷	Construction Worker	CONSTRUCTION WORKER
+noun	👸	Princess	PRINCESS
+noun	👹	Japanese Ogre	JAPANESE OGRE
+noun	👺	Japanese Goblin	JAPANESE GOBLIN
+noun	👻	Ghost	GHOST
+noun	👼	Baby Angel	BABY ANGEL
+noun	👽	Extraterrestrial Alien	EXTRATERRESTRIAL ALIEN
+noun	👾	Alien Monster	ALIEN MONSTER
+noun	👿	Imp	IMP
+noun	💀	Skull	SKULL
+noun	💁	Information Desk Person	INFORMATION DESK PERSON
+noun	💂	Guardsman	GUARDSMAN
+noun	💃	Dancer	DANCER
+noun	💄	Lipstick	LIPSTICK
+noun	💅	Nail Polish	NAIL POLISH
+noun	💆	Face Massage	FACE MASSAGE
+noun	💇	Haircut	HAIRCUT
+noun	💈	Barber Pole	BARBER POLE
+noun	💉	Syringe	SYRINGE
+noun	💊	Pill	PILL
+noun	💋	Kiss Mark	KISS MARK
+noun	💌	Love Letter	LOVE LETTER
+noun	💍	Ring	RING
+noun	💎	Gem Stone	GEM STONE
+noun	💏	Kiss	KISS
+noun	💐	Bouquet	BOUQUET
+noun	💑	Couple With Heart	COUPLE WITH HEART
+noun	💒	Wedding	WEDDING
+noun	💓	Beating Heart	BEATING HEART
+noun	💔	Broken Heart	BROKEN HEART
+noun	💕	Two Hearts	TWO HEARTS
+noun	💖	Sparkling Heart	SPARKLING HEART
+noun	💗	Growing Heart	GROWING HEART
+noun	💘	Heart With Arrow	HEART WITH ARROW
+noun	💙	Blue Heart	BLUE HEART
+noun	💚	Green Heart	GREEN HEART
+noun	💛	Yellow Heart	YELLOW HEART
+noun	💜	Purple Heart	PURPLE HEART
+noun	💝	Heart With Ribbon	HEART WITH RIBBON
+noun	💞	Revolving Hearts	REVOLVING HEARTS
+noun	💟	Heart Decoration	HEART DECORATION
+noun	💡	Electric Light Bulb	ELECTRIC LIGHT BULB
+noun	💢	Anger	ANGER SYMBOL
+noun	💣	Bomb	BOMB
+noun	💤	Sleeping	SLEEPING SYMBOL
+noun	💥	Collision	COLLISION SYMBOL
+noun	💦	Splashing Sweat	SPLASHING SWEAT SYMBOL
+noun	💧	Droplet	DROPLET
+noun	💨	Dash	DASH SYMBOL
+noun	💩	Pile Of Poo	PILE OF POO
+noun	💪	Flexed Biceps	FLEXED BICEPS
+noun	💫	Dizzy	DIZZY SYMBOL
+noun	💬	Speech Balloon	SPEECH BALLOON
+noun	💭	Thought Balloon	THOUGHT BALLOON
+noun	💮	Flower	WHITE FLOWER
+noun	💯	Hundred Points	HUNDRED POINTS SYMBOL
+noun	💰	Money Bag	MONEY BAG
+noun	💱	Currency Exchange	CURRENCY EXCHANGE
+noun	💲	Heavy Dollar Sign	HEAVY DOLLAR SIGN
+noun	💳	Credit Card	CREDIT CARD
+noun	💴	Banknote With Yen Sign	BANKNOTE WITH YEN SIGN
+noun	💵	Banknote With Dollar Sign	BANKNOTE WITH DOLLAR SIGN
+noun	💶	Banknote With Euro Sign	BANKNOTE WITH EURO SIGN
+noun	💷	Banknote With Pound Sign	BANKNOTE WITH POUND SIGN
+noun	💸	Money With Wings	MONEY WITH WINGS
+noun	💺	Seat	SEAT
+noun	💻	Personal Computer	PERSONAL COMPUTER
+noun	💼	Briefcase	BRIEFCASE
+noun	💽	Minidisc	MINIDISC
+noun	💾	Floppy Disk	FLOPPY DISK
+noun	💿	Optical Disc	OPTICAL DISC
+noun	📀	Dvd	DVD
+noun	📁	File Folder	FILE FOLDER
+noun	📂	Open File Folder	OPEN FILE FOLDER
+noun	📃	Page With Curl	PAGE WITH CURL
+noun	📄	Page Facing Up	PAGE FACING UP
+noun	📅	Calendar	CALENDAR
+noun	📆	Tear-Off Calendar	TEAR-OFF CALENDAR
+noun	📇	Card	CARD INDEX
+noun	📈	Chart With Upwards Trend	CHART WITH UPWARDS TREND
+noun	📉	Chart With Downwards Trend	CHART WITH DOWNWARDS TREND
+noun	📊	Bar Chart	BAR CHART
+noun	📋	Clipboard	CLIPBOARD
+noun	📌	Pushpin	PUSHPIN
+noun	📍	Round Pushpin	ROUND PUSHPIN
+noun	📎	Paperclip	PAPERCLIP
+noun	📏	Straight Ruler	STRAIGHT RULER
+noun	📐	Triangular Ruler	TRIANGULAR RULER
+noun	📑	Bookmark Tabs	BOOKMARK TABS
+noun	📒	Ledger	LEDGER
+noun	📓	Notebook	NOTEBOOK
+noun	📔	Notebook With Decorative Cover	NOTEBOOK WITH DECORATIVE COVER
+noun	📕	Closed Book	CLOSED BOOK
+noun	📖	Open Book	OPEN BOOK
+noun	📗	Green Book	GREEN BOOK
+noun	📘	Blue Book	BLUE BOOK
+noun	📙	Orange Book	ORANGE BOOK
+noun	📚	Books	BOOKS
+noun	📛	Name Badge	NAME BADGE
+noun	📜	Scroll	SCROLL
+noun	📝	Memo	MEMO
+noun	📞	Telephone Receiver	TELEPHONE RECEIVER
+noun	📟	Pager	PAGER
+noun	📠	Fax Machine	FAX MACHINE
+noun	📡	Satellite Antenna	SATELLITE ANTENNA
+noun	📢	Public Address Loudspeaker	PUBLIC ADDRESS LOUDSPEAKER
+noun	📣	Cheering Megaphone	CHEERING MEGAPHONE
+noun	📤	Outbox Tray	OUTBOX TRAY
+noun	📥	Inbox Tray	INBOX TRAY
+noun	📦	Package	PACKAGE
+noun	📧	E-Mail	E-MAIL SYMBOL
+noun	📨	Incoming Envelope	INCOMING ENVELOPE
+noun	📬	Open Mailbox With Raised Flag	OPEN MAILBOX WITH RAISED FLAG
+noun	📭	Open Mailbox With Lowered Flag	OPEN MAILBOX WITH LOWERED FLAG
+noun	📮	Postbox	POSTBOX
+noun	📯	Postal Horn	POSTAL HORN
+noun	📰	Newspaper	NEWSPAPER
+noun	📱	Mobile Phone	MOBILE PHONE
+noun	📳	Vibration Mode	VIBRATION MODE
+noun	📴	Mobile Phone Off	MOBILE PHONE OFF
+noun	📵	No Mobile Phones	NO MOBILE PHONES
+noun	📶	Antenna With Bars	ANTENNA WITH BARS
+noun	📷	Camera	CAMERA
+noun	📸	Camera With Flash	CAMERA WITH FLASH
+noun	📹	Video Camera	VIDEO CAMERA
+noun	📺	Television	TELEVISION
+noun	📻	Radio	RADIO
+noun	📼	Videocassette	VIDEOCASSETTE
+noun	📽	Film Projector	FILM PROJECTOR
+noun	📿	Prayer Beads	PRAYER BEADS
+noun	🔀	Twisted Rightwards Arrows	TWISTED RIGHTWARDS ARROWS
+noun	🔅	Low Brightness	LOW BRIGHTNESS SYMBOL
+noun	🔆	High Brightness	HIGH BRIGHTNESS SYMBOL
+noun	🔈	Speaker	SPEAKER
+noun	🔉	Speaker With One Sound Wave	SPEAKER WITH ONE SOUND WAVE
+noun	🔊	Speaker With Three Sound Waves	SPEAKER WITH THREE SOUND WAVES
+noun	🔋	Battery	BATTERY
+noun	🔌	Electric Plug	ELECTRIC PLUG
+noun	🔍	Left-Pointing Magnifying Glass	LEFT-POINTING MAGNIFYING GLASS
+noun	🔏	Lock With Ink Pen	LOCK WITH INK PEN
+noun	🔐	Closed Lock With Key	CLOSED LOCK WITH KEY
+noun	🔑	Key	KEY
+noun	🔒	Lock	LOCK
+noun	🔓	Open Lock	OPEN LOCK
+noun	🔔	Bell	BELL
+noun	🔕	Bell With Cancellation Stroke	BELL WITH CANCELLATION STROKE
+noun	🔖	Bookmark	BOOKMARK
+noun	🔗	Link	LINK SYMBOL
+noun	🔘	Radio Button	RADIO BUTTON
+noun	🔚	End With Leftwards Arrow Above	END WITH LEFTWARDS ARROW ABOVE
+noun	🔝	Top With Upwards Arrow Above	TOP WITH UPWARDS ARROW ABOVE
+noun	🔞	No One Under Eighteen	NO ONE UNDER EIGHTEEN SYMBOL
+noun	🔟	Keycap Ten	KEYCAP TEN
+noun	🔥	Fire	FIRE
+noun	🔦	Electric Torch	ELECTRIC TORCH
+noun	🔧	Wrench	WRENCH
+noun	🔨	Hammer	HAMMER
+noun	🔩	Nut & Bolt	NUT AND BOLT
+noun	🔪	Hocho	HOCHO
+noun	🔫	Pistol	PISTOL
+noun	🔬	Microscope	MICROSCOPE
+noun	🔭	Telescope	TELESCOPE
+noun	🔮	Crystal Ball	CRYSTAL BALL
+noun	🔰	Japanese For Beginner	JAPANESE SYMBOL FOR BEGINNER
+noun	🔱	Trident Emblem	TRIDENT EMBLEM
+noun	🔲	Square Button	BLACK SQUARE BUTTON
+noun	🔳	Square Button	WHITE SQUARE BUTTON
+noun	🔴	Large Red Circle	LARGE RED CIRCLE
+noun	🔵	Large Blue Circle	LARGE BLUE CIRCLE
+noun	🔶	Large Orange Diamond	LARGE ORANGE DIAMOND
+noun	🔷	Large Blue Diamond	LARGE BLUE DIAMOND
+noun	🔸	Small Orange Diamond	SMALL ORANGE DIAMOND
+noun	🔹	Small Blue Diamond	SMALL BLUE DIAMOND
+noun	🔺	Up-Pointing Red Triangle	UP-POINTING RED TRIANGLE
+noun	🔻	Down-Pointing Red Triangle	DOWN-POINTING RED TRIANGLE
+noun	🔼	Up-Pointing Small Red Triangle	UP-POINTING SMALL RED TRIANGLE
+noun	🕉	Om	OM SYMBOL
+noun	🕊	Dove Of Peace	DOVE OF PEACE
+noun	🕋	Kaaba	KAABA
+noun	🕌	Mosque	MOSQUE
+noun	🕍	Synagogue	SYNAGOGUE
+noun	🕎	Menorah With Nine Branches	MENORAH WITH NINE BRANCHES
+noun	🕐	One Oclock	CLOCK FACE ONE OCLOCK
+noun	🕑	Two Oclock	CLOCK FACE TWO OCLOCK
+noun	🕒	Three Oclock	CLOCK FACE THREE OCLOCK
+noun	🕓	Four Oclock	CLOCK FACE FOUR OCLOCK
+noun	🕔	Five Oclock	CLOCK FACE FIVE OCLOCK
+noun	🕕	Six Oclock	CLOCK FACE SIX OCLOCK
+noun	🕖	Seven Oclock	CLOCK FACE SEVEN OCLOCK
+noun	🕗	Eight Oclock	CLOCK FACE EIGHT OCLOCK
+noun	🕘	Nine Oclock	CLOCK FACE NINE OCLOCK
+noun	🕙	Ten Oclock	CLOCK FACE TEN OCLOCK
+noun	🕚	Eleven Oclock	CLOCK FACE ELEVEN OCLOCK
+noun	🕛	Twelve Oclock	CLOCK FACE TWELVE OCLOCK
+noun	🕜	One-Thirty	CLOCK FACE ONE-THIRTY
+noun	🕝	Two-Thirty	CLOCK FACE TWO-THIRTY
+noun	🕞	Three-Thirty	CLOCK FACE THREE-THIRTY
+noun	🕟	Four-Thirty	CLOCK FACE FOUR-THIRTY
+noun	🕠	Five-Thirty	CLOCK FACE FIVE-THIRTY
+noun	🕡	Six-Thirty	CLOCK FACE SIX-THIRTY
+noun	🕢	Seven-Thirty	CLOCK FACE SEVEN-THIRTY
+noun	🕣	Eight-Thirty	CLOCK FACE EIGHT-THIRTY
+noun	🕤	Nine-Thirty	CLOCK FACE NINE-THIRTY
+noun	🕥	Ten-Thirty	CLOCK FACE TEN-THIRTY
+noun	🕦	Eleven-Thirty	CLOCK FACE ELEVEN-THIRTY
+noun	🕧	Twelve-Thirty	CLOCK FACE TWELVE-THIRTY
+noun	🕯	Candle	CANDLE
+noun	🕰	Mantelpiece Clock	MANTELPIECE CLOCK
+noun	🕳	Hole	HOLE
+noun	🕵	Sleuth Or Spy	SLEUTH OR SPY
+noun	🕶	Dark Sunglasses	DARK SUNGLASSES
+noun	🕷	Spider	SPIDER
+noun	🕸	Spider Web	SPIDER WEB
+noun	🕹	Joystick	JOYSTICK
+noun	🕺	Man Dancing	MAN DANCING
+noun	🖇	Linked Paperclips	LINKED PAPERCLIPS
+noun	🖊	Lower Left Ballpoint Pen	LOWER LEFT BALLPOINT PEN
+noun	🖋	Lower Left Fountain Pen	LOWER LEFT FOUNTAIN PEN
+noun	🖌	Lower Left Paintbrush	LOWER LEFT PAINTBRUSH
+noun	🖍	Lower Left Crayon	LOWER LEFT CRAYON
+noun	🖤	Heart	BLACK HEART
+noun	🖥	Desktop Computer	DESKTOP COMPUTER
+noun	🖨	Printer	PRINTER
+noun	🖱	Three Button Mouse	THREE BUTTON MOUSE
+noun	🖲	Trackball	TRACKBALL
+noun	🖼	Frame With Picture	FRAME WITH PICTURE
+noun	🗂	Card Dividers	CARD INDEX DIVIDERS
+noun	🗃	Card File Box	CARD FILE BOX
+noun	🗄	File Cabinet	FILE CABINET
+noun	🗑	Wastebasket	WASTEBASKET
+noun	🗒	Spiral Note Pad	SPIRAL NOTE PAD
+noun	🗓	Spiral Calendar Pad	SPIRAL CALENDAR PAD
+noun	🗜	Compression	COMPRESSION
+noun	🗝	Old Key	OLD KEY
+noun	🗞	Rolled-Up Newspaper	ROLLED-UP NEWSPAPER
+noun	🗡	Dagger Knife	DAGGER KNIFE
+noun	🗣	Speaking Head In Silhouette	SPEAKING HEAD IN SILHOUETTE
+noun	🗨	Left Speech Bubble	LEFT SPEECH BUBBLE
+noun	🗯	Right Anger Bubble	RIGHT ANGER BUBBLE
+noun	🗳	Ballot Box With Ballot	BALLOT BOX WITH BALLOT
+noun	🗺	World Map	WORLD MAP
+noun	🗻	Mount Fuji	MOUNT FUJI
+noun	🗼	Tokyo Tower	TOKYO TOWER
+noun	🗽	Statue Of Liberty	STATUE OF LIBERTY
+noun	🗾	Silhouette Of Japan	SILHOUETTE OF JAPAN
+noun	🗿	Moyai	MOYAI
+noun	😀	Grinning Face	GRINNING FACE
+noun	😂	Face With Tears Of Joy	FACE WITH TEARS OF JOY
+noun	😃	Smiling Face With Open Mouth	SMILING FACE WITH OPEN MOUTH
+noun	😇	Smiling Face With Halo	SMILING FACE WITH HALO
+noun	😈	Smiling Face With Horns	SMILING FACE WITH HORNS
+noun	😉	Winking Face	WINKING FACE
+noun	😊	Smiling Face With Smiling Eyes	SMILING FACE WITH SMILING EYES
+noun	😋	Face Savouring Delicious Food	FACE SAVOURING DELICIOUS FOOD
+noun	😌	Relieved Face	RELIEVED FACE
+noun	😎	Smiling Face With Sunglasses	SMILING FACE WITH SUNGLASSES
+noun	😏	Smirking Face	SMIRKING FACE
+noun	😐	Neutral Face	NEUTRAL FACE
+noun	😑	Expressionless Face	EXPRESSIONLESS FACE
+noun	😒	Unamused Face	UNAMUSED FACE
+noun	😓	Face With Cold Sweat	FACE WITH COLD SWEAT
+noun	😔	Pensive Face	PENSIVE FACE
+noun	😕	Confused Face	CONFUSED FACE
+noun	😖	Confounded Face	CONFOUNDED FACE
+noun	😗	Kissing Face	KISSING FACE
+noun	😘	Face Throwing A Kiss	FACE THROWING A KISS
+noun	😙	Kissing Face With Smiling Eyes	KISSING FACE WITH SMILING EYES
+noun	😚	Kissing Face With Closed Eyes	KISSING FACE WITH CLOSED EYES
+noun	😛	Face With Stuck-Out Tongue	FACE WITH STUCK-OUT TONGUE
+noun	😞	Disappointed Face	DISAPPOINTED FACE
+noun	😟	Worried Face	WORRIED FACE
+noun	😠	Angry Face	ANGRY FACE
+noun	😡	Pouting Face	POUTING FACE
+noun	😢	Crying Face	CRYING FACE
+noun	😣	Persevering Face	PERSEVERING FACE
+noun	😤	Face With Look Of Triumph	FACE WITH LOOK OF TRIUMPH
+noun	😥	Disappointed But Relieved Face	DISAPPOINTED BUT RELIEVED FACE
+noun	😦	Frowning Face With Open Mouth	FROWNING FACE WITH OPEN MOUTH
+noun	😧	Anguished Face	ANGUISHED FACE
+noun	😨	Fearful Face	FEARFUL FACE
+noun	😩	Weary Face	WEARY FACE
+noun	😪	Sleepy Face	SLEEPY FACE
+noun	😫	Tired Face	TIRED FACE
+noun	😬	Grimacing Face	GRIMACING FACE
+noun	😭	Loudly Crying Face	LOUDLY CRYING FACE
+noun	😮	Face With Open Mouth	FACE WITH OPEN MOUTH
+noun	😯	Hushed Face	HUSHED FACE
+noun	😱	Face Screaming In Fear	FACE SCREAMING IN FEAR
+noun	😲	Astonished Face	ASTONISHED FACE
+noun	😳	Flushed Face	FLUSHED FACE
+noun	😴	Sleeping Face	SLEEPING FACE
+noun	😵	Dizzy Face	DIZZY FACE
+noun	😶	Face Without Mouth	FACE WITHOUT MOUTH
+noun	😷	Face With Medical Mask	FACE WITH MEDICAL MASK
+noun	😹	Cat Face With Tears Of Joy	CAT FACE WITH TEARS OF JOY
+noun	😼	Cat Face With Wry Smile	CAT FACE WITH WRY SMILE
+noun	😾	Pouting Cat Face	POUTING CAT FACE
+noun	😿	Crying Cat Face	CRYING CAT FACE
+noun	🙀	Weary Cat Face	WEARY CAT FACE
+noun	🙁	Slightly Frowning Face	SLIGHTLY FROWNING FACE
+noun	🙂	Slightly Smiling Face	SLIGHTLY SMILING FACE
+noun	🙃	Upside-Down Face	UPSIDE-DOWN FACE
+noun	🙄	Face With Rolling Eyes	FACE WITH ROLLING EYES
+noun	🙅	Face With No Good Gesture	FACE WITH NO GOOD GESTURE
+noun	🙆	Face With Ok Gesture	FACE WITH OK GESTURE
+noun	🙇	Person Bowing Deeply	PERSON BOWING DEEPLY
+noun	🙈	See-No-Evil Monkey	SEE-NO-EVIL MONKEY
+noun	🙉	Hear-No-Evil Monkey	HEAR-NO-EVIL MONKEY
+noun	🙊	Speak-No-Evil Monkey	SPEAK-NO-EVIL MONKEY
+noun	🙋	Happy Person Raising One Hand	HAPPY PERSON RAISING ONE HAND
+noun	🙍	Person Frowning	PERSON FROWNING
+noun	🙎	Person With Pouting Face	PERSON WITH POUTING FACE
+noun	🙏	Person With Folded Hands	PERSON WITH FOLDED HANDS
+noun	🚀	Rocket	ROCKET
+noun	🚁	Helicopter	HELICOPTER
+noun	🚂	Steam Locomotive	STEAM LOCOMOTIVE
+noun	🚃	Railway Car	RAILWAY CAR
+noun	🚄	High-Speed Train	HIGH-SPEED TRAIN
+noun	🚆	Train	TRAIN
+noun	🚇	Metro	METRO
+noun	🚈	Light Rail	LIGHT RAIL
+noun	🚉	Station	STATION
+noun	🚊	Tram	TRAM
+noun	🚋	Tram Car	TRAM CAR
+noun	🚌	Bus	BUS
+noun	🚍	Oncoming Bus	ONCOMING BUS
+noun	🚎	Trolleybus	TROLLEYBUS
+noun	🚏	Bus Stop	BUS STOP
+noun	🚐	Minibus	MINIBUS
+noun	🚑	Ambulance	AMBULANCE
+noun	🚒	Fire Engine	FIRE ENGINE
+noun	🚓	Police Car	POLICE CAR
+noun	🚔	Oncoming Police Car	ONCOMING POLICE CAR
+noun	🚕	Taxi	TAXI
+noun	🚖	Oncoming Taxi	ONCOMING TAXI
+noun	🚗	Automobile	AUTOMOBILE
+noun	🚘	Oncoming Automobile	ONCOMING AUTOMOBILE
+noun	🚙	Recreational Vehicle	RECREATIONAL VEHICLE
+noun	🚚	Delivery Truck	DELIVERY TRUCK
+noun	🚛	Articulated Lorry	ARTICULATED LORRY
+noun	🚜	Tractor	TRACTOR
+noun	🚝	Monorail	MONORAIL
+noun	🚞	Mountain Railway	MOUNTAIN RAILWAY
+noun	🚟	Suspension Railway	SUSPENSION RAILWAY
+noun	🚠	Mountain Cableway	MOUNTAIN CABLEWAY
+noun	🚡	Aerial Tramway	AERIAL TRAMWAY
+noun	🚢	Ship	SHIP
+noun	🚣	Rowboat	ROWBOAT
+noun	🚤	Speedboat	SPEEDBOAT
+noun	🚥	Horizontal Traffic Light	HORIZONTAL TRAFFIC LIGHT
+noun	🚦	Vertical Traffic Light	VERTICAL TRAFFIC LIGHT
+noun	🚧	Construction Sign	CONSTRUCTION SIGN
+noun	🚨	Police Cars Revolving Light	POLICE CARS REVOLVING LIGHT
+noun	🚩	Triangular Flag On Post	TRIANGULAR FLAG ON POST
+noun	🚪	Door	DOOR
+noun	🚫	No Entry Sign	NO ENTRY SIGN
+noun	🚬	Smoking	SMOKING SYMBOL
+noun	🚭	No Smoking	NO SMOKING SYMBOL
+noun	🚮	Put Litter In Its Place	PUT LITTER IN ITS PLACE SYMBOL
+noun	🚯	Do Not Litter	DO NOT LITTER SYMBOL
+noun	🚰	Potable Water	POTABLE WATER SYMBOL
+noun	🚱	Non-Potable Water	NON-POTABLE WATER SYMBOL
+noun	🚲	Bicycle	BICYCLE
+noun	🚳	No Bicycles	NO BICYCLES
+noun	🚴	Bicyclist	BICYCLIST
+noun	🚵	Mountain Bicyclist	MOUNTAIN BICYCLIST
+noun	🚶	Pedestrian	PEDESTRIAN
+noun	🚷	No Pedestrians	NO PEDESTRIANS
+noun	🚸	Children Crossing	CHILDREN CROSSING
+noun	🚹	Mens	MENS SYMBOL
+noun	🚺	Womens	WOMENS SYMBOL
+noun	🚻	Restroom	RESTROOM
+noun	🚼	Baby	BABY SYMBOL
+noun	🚽	Toilet	TOILET
+noun	🚾	Water Closet	WATER CLOSET
+noun	🚿	Shower	SHOWER
+noun	🛀	Bath	BATH
+noun	🛁	Bathtub	BATHTUB
+noun	🛂	Passport Control	PASSPORT CONTROL
+noun	🛃	Customs	CUSTOMS
+noun	🛄	Baggage Claim	BAGGAGE CLAIM
+noun	🛅	Left Luggage	LEFT LUGGAGE
+noun	🛋	Couch & Lamp	COUCH AND LAMP
+noun	🛌	Sleeping Accommodation	SLEEPING ACCOMMODATION
+noun	🛍	Shopping Bags	SHOPPING BAGS
+noun	🛎	Bellhop Bell	BELLHOP BELL
+noun	🛏	Bed	BED
+noun	🛐	Place Of Worship	PLACE OF WORSHIP
+noun	🛑	Octagonal Sign	OCTAGONAL SIGN
+noun	🛒	Shopping Trolley	SHOPPING TROLLEY
+noun	🛕	Hindu Temple	HINDU TEMPLE
+noun	🛠	Hammer & Wrench	HAMMER AND WRENCH
+noun	🛡	Shield	SHIELD
+noun	🛢	Oil Drum	OIL DRUM
+noun	🛣	Motorway	MOTORWAY
+noun	🛤	Railway Track	RAILWAY TRACK
+noun	🛥	Motor Boat	MOTOR BOAT
+noun	🛩	Small Airplane	SMALL AIRPLANE
+noun	🛫	Airplane Departure	AIRPLANE DEPARTURE
+noun	🛬	Airplane Arriving	AIRPLANE ARRIVING
+noun	🛰	Satellite	SATELLITE
+noun	🛳	Passenger Ship	PASSENGER SHIP
+noun	🛴	Scooter	SCOOTER
+noun	🛵	Motor Scooter	MOTOR SCOOTER
+noun	🛶	Canoe	CANOE
+noun	🛷	Sled	SLED
+noun	🛸	Flying Saucer	FLYING SAUCER
+noun	🛹	Skateboard	SKATEBOARD
+noun	🛺	Auto Rickshaw	AUTO RICKSHAW
+noun	🟠	Large Orange Circle	LARGE ORANGE CIRCLE
+noun	🟡	Large Yellow Circle	LARGE YELLOW CIRCLE
+noun	🟢	Large Green Circle	LARGE GREEN CIRCLE
+noun	🟣	Large Purple Circle	LARGE PURPLE CIRCLE
+noun	🟤	Large Brown Circle	LARGE BROWN CIRCLE
+noun	🟥	Large Red Square	LARGE RED SQUARE
+noun	🟦	Large Blue Square	LARGE BLUE SQUARE
+noun	🟧	Large Orange Square	LARGE ORANGE SQUARE
+noun	🟨	Large Yellow Square	LARGE YELLOW SQUARE
+noun	🟩	Large Green Square	LARGE GREEN SQUARE
+noun	🟪	Large Purple Square	LARGE PURPLE SQUARE
+noun	🟫	Large Brown Square	LARGE BROWN SQUARE
+noun	🤍	Heart	WHITE HEART
+noun	🤎	Brown Heart	BROWN HEART
+noun	🤏	Pinching Hand	PINCHING HAND
+noun	🤐	Zipper-Mouth Face	ZIPPER-MOUTH FACE
+noun	🤑	Money-Mouth Face	MONEY-MOUTH FACE
+noun	🤒	Face With Thermometer	FACE WITH THERMOMETER
+noun	🤓	Nerd Face	NERD FACE
+noun	🤔	Thinking Face	THINKING FACE
+noun	🤕	Face With Head-Bandage	FACE WITH HEAD-BANDAGE
+noun	🤖	Robot Face	ROBOT FACE
+noun	🤗	Hugging Face	HUGGING FACE
+noun	🤘	Sign Of The Horns	SIGN OF THE HORNS
+noun	🤙	Call Me Hand	CALL ME HAND
+noun	🤚	Raised Back Of Hand	RAISED BACK OF HAND
+noun	🤛	Left-Facing Fist	LEFT-FACING FIST
+noun	🤜	Right-Facing Fist	RIGHT-FACING FIST
+noun	🤝	Handshake	HANDSHAKE
+noun	🤟	I Love You Hand Sign	I LOVE YOU HAND SIGN
+noun	🤠	Face With Cowboy Hat	FACE WITH COWBOY HAT
+noun	🤡	Clown Face	CLOWN FACE
+noun	🤢	Nauseated Face	NAUSEATED FACE
+noun	🤣	Rolling On The Floor Laughing	ROLLING ON THE FLOOR LAUGHING
+noun	🤤	Drooling Face	DROOLING FACE
+noun	🤥	Lying Face	LYING FACE
+noun	🤦	Face Palm	FACE PALM
+noun	🤧	Sneezing Face	SNEEZING FACE
+noun	🤨	Face With One Eyebrow Raised	FACE WITH ONE EYEBROW RAISED
+noun	🤩	Grinning Face With Star Eyes	GRINNING FACE WITH STAR EYES
+noun	🤮	Face With Open Mouth Vomiting	FACE WITH OPEN MOUTH VOMITING
+noun	🤰	Pregnant Woman	PREGNANT WOMAN
+noun	🤱	Breast-Feeding	BREAST-FEEDING
+noun	🤲	Palms Up Together	PALMS UP TOGETHER
+noun	🤳	Selfie	SELFIE
+noun	🤴	Prince	PRINCE
+noun	🤵	Man In Tuxedo	MAN IN TUXEDO
+noun	🤶	Mother Christmas	MOTHER CHRISTMAS
+noun	🤷	Shrug	SHRUG
+noun	🤸	Person Doing Cartwheel	PERSON DOING CARTWHEEL
+noun	🤹	Juggling	JUGGLING
+noun	🤺	Fencer	FENCER
+noun	🤼	Wrestlers	WRESTLERS
+noun	🤽	Water Polo	WATER POLO
+noun	🤾	Handball	HANDBALL
+noun	🤿	Diving Mask	DIVING MASK
+noun	🥀	Wilted Flower	WILTED FLOWER
+noun	🥁	Drum With Drumsticks	DRUM WITH DRUMSTICKS
+noun	🥂	Clinking Glasses	CLINKING GLASSES
+noun	🥃	Tumbler Glass	TUMBLER GLASS
+noun	🥄	Spoon	SPOON
+noun	🥅	Goal Net	GOAL NET
+noun	🥇	First Place Medal	FIRST PLACE MEDAL
+noun	🥈	Second Place Medal	SECOND PLACE MEDAL
+noun	🥉	Third Place Medal	THIRD PLACE MEDAL
+noun	🥊	Boxing Glove	BOXING GLOVE
+noun	🥋	Martial Arts Uniform	MARTIAL ARTS UNIFORM
+noun	🥌	Curling Stone	CURLING STONE
+noun	🥍	Lacrosse Stick & Ball	LACROSSE STICK AND BALL
+noun	🥎	Softball	SOFTBALL
+noun	🥏	Flying Disc	FLYING DISC
+noun	🥐	Croissant	CROISSANT
+noun	🥑	Avocado	AVOCADO
+noun	🥒	Cucumber	CUCUMBER
+noun	🥓	Bacon	BACON
+noun	🥔	Potato	POTATO
+noun	🥕	Carrot	CARROT
+noun	🥖	Baguette Bread	BAGUETTE BREAD
+noun	🥗	Green Salad	GREEN SALAD
+noun	🥘	Shallow Pan Of Food	SHALLOW PAN OF FOOD
+noun	🥙	Stuffed Flatbread	STUFFED FLATBREAD
+noun	🥚	Egg	EGG
+noun	🥛	Glass Of Milk	GLASS OF MILK
+noun	🥜	Peanuts	PEANUTS
+noun	🥝	Kiwifruit	KIWIFRUIT
+noun	🥞	Pancakes	PANCAKES
+noun	🥟	Dumpling	DUMPLING
+noun	🥠	Fortune Cookie	FORTUNE COOKIE
+noun	🥡	Takeout Box	TAKEOUT BOX
+noun	🥢	Chopsticks	CHOPSTICKS
+noun	🥣	Bowl With Spoon	BOWL WITH SPOON
+noun	🥤	Cup With Straw	CUP WITH STRAW
+noun	🥥	Coconut	COCONUT
+noun	🥦	Broccoli	BROCCOLI
+noun	🥧	Pie	PIE
+noun	🥨	Pretzel	PRETZEL
+noun	🥩	Cut Of Meat	CUT OF MEAT
+noun	🥪	Sandwich	SANDWICH
+noun	🥫	Canned Food	CANNED FOOD
+noun	🥬	Leafy Green	LEAFY GREEN
+noun	🥭	Mango	MANGO
+noun	🥮	Moon Cake	MOON CAKE
+noun	🥯	Bagel	BAGEL
+noun	🥱	Yawning Face	YAWNING FACE
+noun	🥵	Overheated Face	OVERHEATED FACE
+noun	🥶	Freezing Face	FREEZING FACE
+noun	🥺	Face With Pleading Eyes	FACE WITH PLEADING EYES
+noun	🥻	Sari	SARI
+noun	🥼	Lab Coat	LAB COAT
+noun	🥽	Goggles	GOGGLES
+noun	🥾	Hiking Boot	HIKING BOOT
+noun	🥿	Flat Shoe	FLAT SHOE
+noun	🦀	Crab	CRAB
+noun	🦁	Lion Face	LION FACE
+noun	🦂	Scorpion	SCORPION
+noun	🦃	Turkey	TURKEY
+noun	🦄	Unicorn Face	UNICORN FACE
+noun	🦅	Eagle	EAGLE
+noun	🦆	Duck	DUCK
+noun	🦇	Bat	BAT
+noun	🦈	Shark	SHARK
+noun	🦉	Owl	OWL
+noun	🦊	Fox Face	FOX FACE
+noun	🦋	Butterfly	BUTTERFLY
+noun	🦌	Deer	DEER
+noun	🦍	Gorilla	GORILLA
+noun	🦎	Lizard	LIZARD
+noun	🦏	Rhinoceros	RHINOCEROS
+noun	🦐	Shrimp	SHRIMP
+noun	🦑	Squid	SQUID
+noun	🦒	Giraffe Face	GIRAFFE FACE
+noun	🦓	Zebra Face	ZEBRA FACE
+noun	🦔	Hedgehog	HEDGEHOG
+noun	🦕	Sauropod	SAUROPOD
+noun	🦖	T-Rex	T-REX
+noun	🦗	Cricket	CRICKET
+noun	🦘	Kangaroo	KANGAROO
+noun	🦙	Llama	LLAMA
+noun	🦚	Peacock	PEACOCK
+noun	🦛	Hippopotamus	HIPPOPOTAMUS
+noun	🦜	Parrot	PARROT
+noun	🦝	Raccoon	RACCOON
+noun	🦞	Lobster	LOBSTER
+noun	🦟	Mosquito	MOSQUITO
+noun	🦠	Microbe	MICROBE
+noun	🦡	Badger	BADGER
+noun	🦢	Swan	SWAN
+noun	🦥	Sloth	SLOTH
+noun	🦦	Otter	OTTER
+noun	🦧	Orangutan	ORANGUTAN
+noun	🦨	Skunk	SKUNK
+noun	🦩	Flamingo	FLAMINGO
+noun	🦪	Oyster	OYSTER
+noun	🦮	Guide Dog	GUIDE DOG
+noun	🦯	Probing Cane	PROBING CANE
+noun	🦴	Bone	BONE
+noun	🦵	Leg	LEG
+noun	🦶	Foot	FOOT
+noun	🦷	Tooth	TOOTH
+noun	🦸	Superhero	SUPERHERO
+noun	🦹	Supervillain	SUPERVILLAIN
+noun	🦺	Safety Vest	SAFETY VEST
+noun	🦻	Ear With Hearing Aid	EAR WITH HEARING AID
+noun	🦼	Motorized Wheelchair	MOTORIZED WHEELCHAIR
+noun	🦽	Manual Wheelchair	MANUAL WHEELCHAIR
+noun	🦾	Mechanical Arm	MECHANICAL ARM
+noun	🦿	Mechanical Leg	MECHANICAL LEG
+noun	🧀	Cheese Wedge	CHEESE WEDGE
+noun	🧁	Cupcake	CUPCAKE
+noun	🧂	Salt Shaker	SALT SHAKER
+noun	🧃	Beverage Box	BEVERAGE BOX
+noun	🧄	Garlic	GARLIC
+noun	🧅	Onion	ONION
+noun	🧆	Falafel	FALAFEL
+noun	🧇	Waffle	WAFFLE
+noun	🧈	Butter	BUTTER
+noun	🧉	Mate Drink	MATE DRINK
+noun	🧊	Ice Cube	ICE CUBE
+noun	🧍	Standing Person	STANDING PERSON
+noun	🧎	Kneeling Person	KNEELING PERSON
+noun	🧏	Deaf Person	DEAF PERSON
+noun	🧐	Face With Monocle	FACE WITH MONOCLE
+noun	🧑	Adult	ADULT
+noun	🧒	Child	CHILD
+noun	🧓	Older Adult	OLDER ADULT
+noun	🧔	Bearded Person	BEARDED PERSON
+noun	🧕	Person With Headscarf	PERSON WITH HEADSCARF
+noun	🧖	Person In Steamy Room	PERSON IN STEAMY ROOM
+noun	🧗	Person Climbing	PERSON CLIMBING
+noun	🧘	Person In Lotus Position	PERSON IN LOTUS POSITION
+noun	🧙	Mage	MAGE
+noun	🧚	Fairy	FAIRY
+noun	🧛	Vampire	VAMPIRE
+noun	🧜	Merperson	MERPERSON
+noun	🧝	Elf	ELF
+noun	🧞	Genie	GENIE
+noun	🧟	Zombie	ZOMBIE
+noun	🧠	Brain	BRAIN
+noun	🧡	Orange Heart	ORANGE HEART
+noun	🧢	Billed Cap	BILLED CAP
+noun	🧣	Scarf	SCARF
+noun	🧤	Gloves	GLOVES
+noun	🧥	Coat	COAT
+noun	🧦	Socks	SOCKS
+noun	🧧	Red Gift Envelope	RED GIFT ENVELOPE
+noun	🧨	Firecracker	FIRECRACKER
+noun	🧩	Jigsaw Puzzle Piece	JIGSAW PUZZLE PIECE
+noun	🧪	Test Tube	TEST TUBE
+noun	🧫	Petri Dish	PETRI DISH
+noun	🧬	Dna Double Helix	DNA DOUBLE HELIX
+noun	🧭	Compass	COMPASS
+noun	🧮	Abacus	ABACUS
+noun	🧯	Fire Extinguisher	FIRE EXTINGUISHER
+noun	🧰	Toolbox	TOOLBOX
+noun	🧱	Brick	BRICK
+noun	🧲	Magnet	MAGNET
+noun	🧳	Luggage	LUGGAGE
+noun	🧴	Lotion Bottle	LOTION BOTTLE
+noun	🧵	Spool Of Thread	SPOOL OF THREAD
+noun	🧶	Ball Of Yarn	BALL OF YARN
+noun	🧷	Safety Pin	SAFETY PIN
+noun	🧸	Teddy Bear	TEDDY BEAR
+noun	🧹	Broom	BROOM
+noun	🧺	Basket	BASKET
+noun	🧻	Roll Of Paper	ROLL OF PAPER
+noun	🧼	Bar Of Soap	BAR OF SOAP
+noun	🧽	Sponge	SPONGE
+noun	🧾	Receipt	RECEIPT
+noun	🧿	Nazar Amulet	NAZAR AMULET
+noun	🩰	Ballet Shoes	BALLET SHOES
+noun	🩱	One-Piece Swimsuit	ONE-PIECE SWIMSUIT
+noun	🩲	Briefs	BRIEFS
+noun	🩳	Shorts	SHORTS
+noun	🩸	Drop Of Blood	DROP OF BLOOD
+noun	🩹	Adhesive Bandage	ADHESIVE BANDAGE
+noun	🩺	Stethoscope	STETHOSCOPE
+noun	🪀	Yo-Yo	YO-YO
+noun	🪁	Kite	KITE
+noun	🪂	Parachute	PARACHUTE
+noun	🪐	Ringed Planet	RINGED PLANET
+noun	🪑	Chair	CHAIR
+noun	🪒	Razor	RAZOR
+noun	🪓	Axe	AXE
+noun	🪔	Diya Lamp	DIYA LAMP
