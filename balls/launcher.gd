@@ -31,7 +31,6 @@ func new_game():
 	for b in balls:
 		b.queue_free()
 	balls = []
-	new_ball()
 
 
 func new_ball():

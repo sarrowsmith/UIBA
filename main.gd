@@ -6,7 +6,7 @@ const Utils = preload("res://utils.gd")
 export(AudioStream) var score_sound
 export(AudioStream) var game_over_sound
 export var next = 1.5
-export var balls = 10
+export var balls = 9
 
 onready var total = 0
 onready var left = balls
@@ -30,6 +30,7 @@ func _init():
 func new_game():
 	scored(0)
 	arena.new_game(game_name[2], multiplier)
+	new_ball()
 
 
 func new_ball():
